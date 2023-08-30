@@ -33,23 +33,23 @@
   url = "/docs/prologue/introduction/"
   weight = 10
 
-[[main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 20
+# [[main]]
+#   name = "Blog"
+#   url = "/blog/"
+#   weight = 20
 
-[[main]]
-  name = "Get Started"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
+# [[main]]
+#   name = "Get Started"
+#   weight = 30
+#   identifier = "get-started"
+#   url = "/docs/prologue/introduction/"
 
-[[main]]
-  name = "Tutorial"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
+# [[main]]
+#   name = "Tutorial"
+#   weight = 50
+#   identifier = "tutorial"
+#   url = "https://getdoks.org/tutorial/introduction/"
+#   parent = "get-started"
 
 [[social]]
   name = "GitHub"
