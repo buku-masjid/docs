@@ -1,7 +1,15 @@
+[id]
+  languageName = "Bahasa"
+  contentDir = "content/id"
+  weight = 10
+  [id.params]
+    languageISO = "ID"
+    languageTag = "id-ID"
+
 [en]
   languageName = "English"
   contentDir = "content/en"
-  weight = 10
+  weight = 11
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
