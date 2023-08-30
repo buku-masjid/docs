@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://buku-masjid.pages.dev/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
