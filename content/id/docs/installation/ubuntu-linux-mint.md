@@ -1,15 +1,15 @@
 ---
-title: "Localhost Linux"
-description: "Cara menginstall Buku Masjid di PC/Laptop Linux."
-lead: "Cara menginstall Buku Masjid di PC/Laptop Linux."
+title: "Ubuntu/Linux Mint"
+description: "Cara menginstall Buku Masjid di PC/Laptop Ubuntu/Linux Mint."
+lead: "Cara menginstall Buku Masjid di PC/Laptop Ubuntu/Linux Mint."
 date: 2023-08-30T10:21:00+08:00
-lastmod: 2023-08-30T10:21:00+08:00
+lastmod: 2023-08-31T11:11:00+08:00
 draft: false
 images: []
 menu:
   docs:
     parent: "installation"
-weight: 110
+weight: 210
 toc: true
 ---
 
