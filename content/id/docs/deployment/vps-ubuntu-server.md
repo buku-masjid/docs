@@ -1,5 +1,5 @@
 ---
-title: "VPS - Ubuntu Server"
+title: "VPS - Ubuntu Server (TODO)"
 description: "Cara menginstall Buku Masjid di VPS - Ubuntu Server."
 lead: "Cara menginstall Buku Masjid di VPS - Ubuntu Server."
 date: 2023-08-30T10:21:00+08:00

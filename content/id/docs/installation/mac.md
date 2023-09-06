@@ -1,5 +1,5 @@
 ---
-title: "Mac"
+title: "Mac (TODO)"
 description: "Cara menginstall Buku Masjid di Mac."
 lead: "Cara menginstall Buku Masjid di Mac."
 date: 2023-08-30T10:21:00+08:00

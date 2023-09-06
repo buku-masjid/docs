@@ -1,5 +1,5 @@
 ---
-title: "Hosting cPanel"
+title: "Hosting cPanel (TODO)"
 description: "Cara menginstall Buku Masjid di Hosting cPanel."
 lead: "Cara menginstall Buku Masjid di Hosting cPanel."
 date: 2023-08-30T10:21:00+08:00
