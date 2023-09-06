@@ -1,0 +1,12 @@
+id:
+  - image_path: images/desktop-view/01-daftar-transaksi.jpg
+    label: Daftar Transaksi
+
+  - image_path: images/desktop-view/22-laporan-kas-bulanan-untuk-publik.jpg
+    label: Laporan Kas Bulanan
+
+  - image_path: images/desktop-view/23-laporan-kas-per-kategori-untuk-publik.jpg
+    label: Laporan Kas per Kategori
+
+  - image_path: images/desktop-view/27-jadwal-pengajian-pekan-ini.jpg
+    label: Jadwal Pengajian Pekan Ini

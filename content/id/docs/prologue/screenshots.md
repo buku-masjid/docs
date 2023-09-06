@@ -1,9 +1,9 @@
 ---
-title: "Screenshot"
+title: "Tampilan Web"
 description: "Beberapa tampilan sistem web buku masjid."
 lead: "Beberapa tampilan sistem web buku masjid."
 date: 2023-09-02T16:50:00+08:00
-lastmod: 2023-09-02T16:50:00+08:00
+lastmod: 2023-09-06T23:36:00+08:00
 draft: false
 images: []
 menu:
