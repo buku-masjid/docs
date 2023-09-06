@@ -58,6 +58,26 @@
       </div>
     </div>
   </section>
+
+  <section class="section section-featured mt-3 bg-light py-5">
+    <div class="container">
+      <h2 class="h3 mt-0 text-center">Tampilan Web</h2>
+      <div class="row justify-content-center mt-3 g-4">
+        {{ range $.Site.Data.slides.id }}
+        <div class="col-sm-8 col-md-6 col-xl-4">
+          <div class="card my-0">
+            {{ $image := resources.Get .image_path }}
+            <a class="text-center" href="{{ ($image.Fit "1600x1600 center q50").Permalink }}" data-lightbox="test" data-title="{{ .label | safeHTML }}">
+              <img class="figure-img img-fluid rounded" data-sizes="auto" src="{{ ($image.Fill "360x200 top").RelPermalink }}">
+              <figcaption class="figure-caption">{{ .label | safeHTML }}</figcaption>
+            </a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <p class="text-center mt-4 mb-0"><a href="{{ "/docs/prologue/screenshots/" | absURL }}">Lihat Semua Tampilan Web</a></p>
+    </div>
+  </section>
   {{ end }}
 {{ end }}
 
