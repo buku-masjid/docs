@@ -36,13 +36,12 @@
 # [[main]]
 #   name = "Blog"
 #   url = "/blog/"
-#   weight = 20
+#   weight = 10
 
-# [[main]]
-#   name = "Get Started"
-#   weight = 30
-#   identifier = "get-started"
-#   url = "/docs/prologue/introduction/"
+[[main]]
+  name = "Tutorial"
+  weight = 20
+  url = "/tutorial/transaction/transaction-list/"
 
 # [[main]]
 #   name = "Tutorial"
