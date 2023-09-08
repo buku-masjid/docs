@@ -83,8 +83,8 @@ repoHost = "GitHub"
 docsRepo = "https://github.com/buku-masjid/buku-masjid"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
-editPage = false
-lastMod = false
+editPage = true
+lastMod = true
 
 [sections]
   sectionNav = ["docs", "tutorial"]
