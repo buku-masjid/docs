@@ -41,7 +41,7 @@
 [[main]]
   name = "Tutorial"
   weight = 20
-  url = "/tutorial/transaction/transaction-list/"
+  url = "/tutorial/transaction/list/"
 
 # [[main]]
 #   name = "Tutorial"
