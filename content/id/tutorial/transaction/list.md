@@ -22,7 +22,7 @@ toc: true
 
 <div class="row">
     <div class="col-md-8">
-      <img src="/images/mobile-view/01-daftar-transaksi.jpg">
+      {{< figure src="/images/mobile-view/01-daftar-transaksi.jpg" >}}
     </div>
     <div class="col-md-8">
       <h4 class="mt-4 mt-sm-0">Keterangan</h4>
