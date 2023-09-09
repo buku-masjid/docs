@@ -3,7 +3,7 @@ title: "Laporan per Kategori"
 description: "Membaca laporan pemasukan dan pengeluaran per kategori."
 lead: "Membaca laporan pemasukan dan pengeluaran per kategori."
 date: 2023-09-07T17:10:00+08:00
-lastmod: 2023-09-07T17:10:00+08:00
+lastmod: 2023-09-09T23:15:00+08:00
 draft: false
 images: []
 type: docs
@@ -19,7 +19,7 @@ toc: true
 ## Tampilan Laporan per Kategori
 
 1. Menu untuk membuka halaman Laporan
-1. Navigasi untuk melihat **Laporan Kas Bulanan**, **Laporan Kas per Kategori**, dan **Laporan Kas per Pekan**
+1. Klik **Laporan Kas per Kategori**
 1. Kriteria untuk melihat laporan bulan dan tahun sebelumnya
 1. Tombol submit untuk melihat laporan pada bulan dan tahun yang dipilih
 1. Tombol **Export PDF** untuk mencetak laporan
