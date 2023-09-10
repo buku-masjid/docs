@@ -7,6 +7,7 @@
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
+      <a class="btn btn-info btn-lg px-4 mb-2" href="/tutorial/transaction/list/" role="button">{{ i18n "read-tutorial" }}</a>
       <a class="btn btn-secondary btn-lg px-4 mb-2" href="{{ .Site.Params.schemaGitHub }}" role="button">GitHub</a>
       <p class="meta">Open-source MIT Licensed.</p>
     </div>

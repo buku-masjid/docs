@@ -1,6 +1,9 @@
 - id: get-started
   translation: "Baca Panduan"
 
+- id: read-tutorial
+  translation: "Baca Tutorial"
+
 - id: on-this-page
   translation: "Isi halaman"
 
