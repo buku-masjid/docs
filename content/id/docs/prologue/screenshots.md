@@ -90,7 +90,7 @@ Desktop
 
 Mobile (portrait)
 
-![Daftar Transaksi](images/og-image.jpg "Daftar Transaksi")
+![Daftar Transaksi](images/mobile-view/01-daftar-transaksi.png "Daftar Transaksi")
 
 ### Daftar Kategori per Buku
 
