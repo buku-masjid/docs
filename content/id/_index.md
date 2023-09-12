@@ -5,5 +5,5 @@ lead: "Buku Masjid adalah sistem pengelolaan keuangan dan jadwal pengajian masji
 date: 2023-08-30T10:21:00+08:00
 lastmod: 2023-08-30T10:21:00+08:00
 draft: false
-images: []
+images: ['images/og-image.jpg']
 ---
