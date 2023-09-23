@@ -13,11 +13,14 @@ weight: 230
 toc: true
 ---
 
-Untuk menginstall Buku Masjid di Mac tanpa menggunakan Laravel Valet, bisa mengikuti panduan berikut: [Cara menginstall Buku Masjid di PC/Laptop Ubuntu/Linux Mint](/docs/installation/ubuntu-linux-mint/).
+Untuk menginstall Buku Masjid di Mac tanpa menggunakan [Laravel Valet](https://laravel.com/docs/10.x/valet), bisa mengikuti panduan berikut: [Cara menginstall Buku Masjid di PC/Laptop Ubuntu/Linux Mint](/docs/installation/ubuntu-linux-mint/).
 
-Untuk menginstall Buku Masjid di Mac dengan menggunakan [Laravel Valet](https://laravel.com/docs/10.x/valet), bisa mengikuti panduan dibawah ini:
+Untuk menginstall Buku Masjid di Mac dengan menggunakan Laravel Valet, bisa mengikuti panduan dibawah ini:
 
 1. Clone the repo : `git clone https://github.com/buku-masjid/buku-masjid.git`
+1. Gunakan PHP versi 8.1 : `valet use php@8.1`
+   ![composer global update](images/composer-global-update.png "composer global update")
+1. Setelah _switch_ versi PHP, sebaiknya jalankan `composer global update`
 1. `$ cd buku-masjid`
 1. `$ composer install`
 1. `$ cp .env.example .env`
@@ -26,7 +29,7 @@ Untuk menginstall Buku Masjid di Mac dengan menggunakan [Laravel Valet](https://
 1. **Setting database** dan config lainnya pada file `.env`
 
    ```
-   APP_URL=http://localhost
+   APP_URL=http://buku-masjid.test
    APP_TIMEZONE="Asia/Makassar"
 
    DB_DATABASE=buku_masjid
@@ -41,8 +44,8 @@ Untuk menginstall Buku Masjid di Mac dengan menggunakan [Laravel Valet](https://
 1. `$ php artisan migrate --seed`
 1. `$ php artisan passport:keys`
 1. `$ php artisan storage:link`
-1. `$ php artisan serve`
-1. Login dengan default user:
+1. `$ valet link`
+1. Akses [http://buku-masjid.test](http://buku-masjid.test), kemudian Login dengan default user:
    ```
    email: admin@example.net
    password: keamanan999
