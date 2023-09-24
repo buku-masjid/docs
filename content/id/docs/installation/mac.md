@@ -14,10 +14,10 @@ toc: true
 ---
 
 {{< alert icon="👉" context="info" >}}
-Untuk menginstall Buku Masjid di Mac OS tanpa menggunakan [Laravel Valet](https://laravel.com/docs/10.x/valet), bisa mengikuti panduan berikut: [Cara Install → Ubuntu/Linux Mint]({{< relref "docs/installation/ubuntu-linux-mint" >}}).
+Untuk menginstall Buku Masjid di Mac OS tanpa menggunakan Laravel Valet, bisa mengikuti panduan berikut: [Cara Install → Ubuntu/Linux Mint]({{< relref "docs/installation/ubuntu-linux-mint" >}}).
 {{< /alert >}}
 
-Untuk menginstall Buku Masjid di Mac OS dengan menggunakan Laravel Valet, bisa mengikuti panduan dibawah ini:
+Untuk menginstall Buku Masjid di Mac OS dengan menggunakan [Laravel Valet](https://laravel.com/docs/10.x/valet), bisa mengikuti panduan dibawah ini:
 
 1. Clone the repo : `git clone https://github.com/buku-masjid/buku-masjid.git`
 1. Gunakan PHP versi 8.1 : `valet use php@8.1`
