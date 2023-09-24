@@ -22,9 +22,7 @@ Untuk menginstall Buku Masjid di Mac OS dengan menggunakan Laravel Valet, bisa m
 1. Clone the repo : `git clone https://github.com/buku-masjid/buku-masjid.git`
 1. Gunakan PHP versi 8.1 : `valet use php@8.1`
 
-
    ![composer global update](images/composer-global-update.png "composer global update")
-
 
 1. Setelah _switch_ versi PHP, sebaiknya jalankan `composer global update`
 1. `$ cd buku-masjid`
