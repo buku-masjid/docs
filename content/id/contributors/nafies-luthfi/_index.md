@@ -1,12 +1,15 @@
 ---
-title: "Henk Verlinde"
+title: "Nafies Luthfi"
 description: "Creator of Hyas."
-date: 2020-10-06T08:50:45+00:00
-lastmod: 2020-10-06T08:50:45+00:00
+date: 2023-09-30T23:40:00+08:00
+lastmod:
 draft: false
 images: []
 ---
 
-Creator of Hyas.
+Pengelola Buku Masjid.
 
-[@HenkVerlinde](https://twitter.com/henkverlinde)
+Telegram: [@nafiesL](https://t.me/nafiesl)
+Facebook: [@nafiesL](https://www.facebook.com/nafiesl)
+Github: [@nafiesL](https://github.com/nafiesl)
+Twitter: [@nafiesL](https://twitter.com/nafiesl)
