@@ -2,6 +2,8 @@
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
+      {{ $image := resources.Get "images/buku-masjid-logo.png" }}
+      <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $image.Permalink }}" data-srcset="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Title }}">
       <h1 class="mt-0">{{ .Title }}</h1>
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
