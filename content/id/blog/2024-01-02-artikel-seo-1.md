@@ -17,5 +17,5 @@ homepage: false
 # Apa Itu BukuMasjid
 kjsdksajdksjda
 
-## fdfdfdfd
-fsdfdsfsdfsdfdsfd
+## Fitur Fitur utama
+Sekali klik input pemasukan
