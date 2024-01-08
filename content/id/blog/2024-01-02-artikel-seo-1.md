@@ -39,6 +39,6 @@ Fitur-fitur yang tersedia di BukuMasjid dapat memberikan banyak kemudahan dan me
 
 Untuk jangka panjang, Tim BukuMasjid akan menambah berbagai fitur untuk memudahakn Bendahara Masjid untuk melakukan Analisa dan Perencanaan terhadap Manajemen Keuangan Masjid. Sehingga Bendahara Masjid dapat membuat keputusan yang tepat dalam perencanaan keuangan masjid melalui analisa mendalam terkait Pemasukan dan Pengeluaran Masjid.
 
-Hubungi kami untuk menggunakan sistem BukuMasjid, gratis 2 bulan penyesuaian bagi seluruh pengguna baru. Kontak kami melalui Whatsapp. [wa.me/6282350355470](http://wa.me/6282350355470)
+Hubungi kami untuk menggunakan sistem BukuMasjid, gratis 2 bulan penyesuaian bagi seluruh pengguna baru. Kontak kami melalui Whatsapp.  <a href="https://wa.me/6282350355470" target="_blank">wa.me/6282350355470</a>
 
 Kelola Dengan Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.
