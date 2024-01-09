@@ -1,4 +1,4 @@
-baseurl = "https://bukumasjid.com/"
+baseurl = ""
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
