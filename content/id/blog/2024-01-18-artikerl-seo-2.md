@@ -1,7 +1,7 @@
 ---
 title: "Transformasi Sukses Masjid Ar Rahman dengan BukuMasjid"
-description: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Keberhasilan! Temukan kisah inspiratif digitalisasi dalam pencatatan laporan keuangan masjid."
-excerpt: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Keberhasilan! Temukan kisah inspiratif digitalisasi dalam pencatatan laporan keuangan masjid."
+description: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Keberhasilan! Temukan kisah inspiratif digitalisasi dalam pencatatan laporan keuangan masjid"
+excerpt: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Keberhasilan! Temukan kisah inspiratif digitalisasi dalam pencatatan laporan keuangan masjid"
 date: 2024-01-18T16:00:00+08:00
 lastmod:
 draft: false
@@ -35,7 +35,7 @@ Surawardi berbagi harapannya bahwa dengan adanya BukuMasjid, pengelola masjid ti
 #### Rencana Pengembangan Mendatang
 Tim BukuMasjid saat ini tengah mempersiapkan berbagai fitur menyambut Idul Fitri dan Idul Adha. Dalam waktu dekat, BukuMasjid akan menyediakan fitur pencatatan Zakat Fitrah dan Fid’ah, lengkap dengan akumulasi distribusinya. Selain itu, akan tersedia juga fitur pencatatan hewan qurban beserta otomatisasi pembuatan kwitansi qurban
 
-###### Ayo Buktikan Kemudahan Pengelolaan 3X lebih cepat dan efisien.
+###### Ayo Buktikan! Kemudahan Pengelolaan 3X Lebih Cepat dan Efisien
 
 Mengalami keresahan yang serupa dengan Pak Surawardi? Atau merasa bahwa Laporan Keuangan Masjid Anda belum terstruktur dengan baik? BukuMasjid dapat memberikan kemudahan dan efisiensi pencatatan laporan keuangan masjid Anda hingga 3x lipat
 
