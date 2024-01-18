@@ -2,7 +2,7 @@
 title: "Laporan Keuangan Masjid Digital, Solusi Pengelolaan Praktis dalam Genggaman"
 description: "Kelola keuangan masjid 3 kali lebih cepat hanya melalui genggaman anda, Revolusi Laporan Keuangan Masjid: Inovasi digital kami melalui BukuMasjid."
 excerpt: "Kelola keuangan masjid 3 kali lebih cepat hanya melalui genggaman anda, Revolusi Laporan Keuangan Masjid: Inovasi digital kami melalui BukuMasjid."
-date: 2024-01-02T08:00:00+08:00
+date: 2024-01-09T08:00:00+08:00
 lastmod:
 draft: false
 weight: 50
