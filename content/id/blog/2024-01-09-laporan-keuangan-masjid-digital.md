@@ -14,6 +14,8 @@ pinned: false
 homepage: false
 ---
 
+![Foto Artikel ](/images/blog/2024-01-19-laporan-keuangan-masjid-digital.png "Foto Artikel")
+
 Dalam era digital, pengelolaan keuangan masjid semakin krusial. BukuMasjid hadir sebagai solusi manajemen laporan keuangan masjid berbasis web. Dengan akses mudah melalui perangkat seluler, BukuMasjid membantu meningkatkan efisiensi dan akurasi dalam pengelolaan keuangan masjid. Mari eksplor lebih lanjut!
 
 Dari pengalaman Surawardi, Bendahara Masjid Ar Rahman, Banjarmasin, tergambar betapa rumitnya pencatatan laporan keuangan masjid secara manual. Kendala seperti waktu yang terbuang banyak setiap harinya, keharusan datang ke masjid untuk mencatat pemasukan dan pengeluaran, serta penggunaan banyak buku menciptakan ketidakefisienan. Menginspirasi dari kesulitan yang dihadapi, kami, Tim Pendiri BukuMasjid, menyajikan solusi modern melalui digitalisasi pengelolaan laporan keuangan masjid.
