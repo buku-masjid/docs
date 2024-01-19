@@ -14,7 +14,7 @@ pinned: false
 homepage: false
 ---
 
-![Foto Artikel ](/images/blog/2024-01-19-laporan-keuangan-masjid-digital.png "Foto Artikel")
+![Laporan Keuangan Masjid Digital](images/blog/2024-01-09-laporan-keuangan-masjid-digital_01.png "Laporan Keuangan Masjid Digital")
 
 Dalam era digital, pengelolaan keuangan masjid semakin krusial. BukuMasjid hadir sebagai solusi manajemen laporan keuangan masjid berbasis web. Dengan akses mudah melalui perangkat seluler, BukuMasjid membantu meningkatkan efisiensi dan akurasi dalam pengelolaan keuangan masjid. Mari eksplor lebih lanjut!
 

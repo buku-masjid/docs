@@ -13,8 +13,8 @@ contributors: ["Zidni Ilman"]
 pinned: false
 homepage: false
 ---
-![Foto Wawancara dengan Surawardi](/images/blog/2024-01-18-artikel-seo-2.png "Tampilan Progress Bar Buku Kas")
- 
+![Buku Masjid Ar Rahman Banjarmasin, Laporan Keuangan Masjid Digital](images/blog/2024-01-19-transformasi-sukses-masjid-ar-rahman_01.png "Buku Masjid Ar Rahman Banjarmasin")
+
 Dalam era digital yang terus berkembang, banyak masjid menghadapi tantangan dalam manajemen keuangan mereka. Salah satu masjid yang berhasil mengatasi kendala tersebut adalah Masjid Ar Rahman di Jl. Kampung Melayu Banjarmasin. Surawardi, bendahara masjid ini, telah berbagi pengalamannya tentang bagaimana BukuMasjid membantu mereka mengelola keuangan dengan lebih mudah dan terstruktur.
 
 Masjid Ar Rahman terletak di jl. Kampung Melayu Banjarmasin menjadi tempat lebih dari 1000 jamaah dalam melaksanakan ibadah tiap harinya. Tantangan besar muncul dalam mencatat arus keuangan masjid.
