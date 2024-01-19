@@ -2,7 +2,7 @@
 title: "Transformasi Sukses Masjid Ar Rahman dengan BukuMasjid"
 description: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Keberhasilan! Temukan kisah inspiratif digitalisasi dalam pencatatan laporan keuangan masjid"
 excerpt: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Keberhasilan! Temukan kisah inspiratif digitalisasi dalam pencatatan laporan keuangan masjid"
-date: 2024-01-18T16:00:00+08:00
+date: 2024-01-19T16:00:00+08:00
 lastmod:
 draft: false
 weight: 50
@@ -13,7 +13,8 @@ contributors: ["Zidni Ilman"]
 pinned: false
 homepage: false
 ---
-
+![Foto Wawancara dengan Surawardi](/images/blog/2024-01-18-artikel-seo-2.png "Tampilan Progress Bar Buku Kas")
+ 
 Dalam era digital yang terus berkembang, banyak masjid menghadapi tantangan dalam manajemen keuangan mereka. Salah satu masjid yang berhasil mengatasi kendala tersebut adalah Masjid Ar Rahman di Jl. Kampung Melayu Banjarmasin. Surawardi, bendahara masjid ini, telah berbagi pengalamannya tentang bagaimana BukuMasjid membantu mereka mengelola keuangan dengan lebih mudah dan terstruktur.
 
 Masjid Ar Rahman terletak di jl. Kampung Melayu Banjarmasin menjadi tempat lebih dari 1000 jamaah dalam melaksanakan ibadah tiap harinya. Tantangan besar muncul dalam mencatat arus keuangan masjid.
