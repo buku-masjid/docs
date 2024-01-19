@@ -44,6 +44,6 @@ Tim BukuMasjid saat ini tengah mempersiapkan berbagai fitur menyambut Bulan Rama
 
 Mengalami keresahan yang serupa dengan Pak Surawardi? Atau merasa bahwa Laporan Keuangan Masjid Anda belum terstruktur dengan baik? BukuMasjid dapat memberikan kemudahan dan efisiensi pencatatan laporan keuangan masjid Anda hingga 3x lipat
 
-Hubungi kami untuk menggunakan sistem BukuMasjid, gratis 2 bulan penyesuaian bagi seluruh pengguna baru. Kontak kami melalui Whatsapp.  <a href="https://wa.me/6282350355470" target="_blank">wa.me/6282350355470</a>
+Hubungi kami untuk menggunakan sistem BukuMasjid, gratis 2 bulan penyesuaian bagi seluruh pengguna baru. Kontak kami melalui Whatsapp.  <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
 
 Kelola Dengan Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.
