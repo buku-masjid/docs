@@ -28,7 +28,7 @@ Dalam satu bulan penggunaan BukuMasjid, Surawardi mengalami perubahan besar dala
 
 Selama empat bulan terakhir, Masjid Ar Rahman menjadi pengguna aktif BukuMasjid. Surawardi merasakan berbagai kemudahan, termasuk struktur pencatatan keuangan yang lebih terorganisir, kemudahan input melalui ponsel, pembuatan otomatis laporan keuangan bulanan dalam format PDF, dan pelacakan pengeluaran berlebihan melalui daftar pengeluaran keseluruhan.
 
-Surawardi berbagi harapannya bahwa dengan adanya BukuMasjid, pengelola masjid tidak perlu khawatir lagi dengan beban dan pekerjaan yang rumit. Ia mengapresiasi inovasi tim BukuMasjid dalam menciptakan solusi digital untuk pencatatan keuangan masjid.
+Surawardi cukup optimis bahwa dengan menggunakan sistem BukuMasjid, pengelola masjid tidak perlu khawatir lagi dengan beban dan pekerjaan yang rumit. Beliau mengapresiasi inovasi tim BukuMasjid dalam menciptakan solusi digital untuk pencatatan keuangan masjid.
 
 "Sistem BukuMasjid sangat membantu saya ketika melaksanakan tugas sebagai Bendahara Masjid. Dengan sistem ini, saya dapat menjalankan aktivitas utama saya sebagai pegawai akuntan pajak tanpa terganggu. Saya berharap bahwa ke depannya, kehadiran sistem BukuMasjid akan memberikan kemudahan kepada semua pengurus Masjid. Mereka tidak perlu lagi khawatir dengan beban besar dan kompleksitas pekerjaan yang harus dihadapi, karena pencatatan keuangan Masjid yang rumit telah berhasil digantikan dengan pencatatan laporan keuangan secara digital yang mudah, ini sebuah inovasi yang bagus dari tim BukuMasjid."
 
