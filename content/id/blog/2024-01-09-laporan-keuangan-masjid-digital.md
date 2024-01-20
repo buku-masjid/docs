@@ -24,19 +24,19 @@ Fitur-fitur yang tersedia di BukuMasjid dapat memberikan banyak kemudahan dan me
 
 ### 5 Fitur Unggulan Buku Masjid
 
-##### Penambahan Catatan Praktis sekali klik
+##### 1. Penambahan Catatan Praktis sekali klik
 Input Transaksi melalui **satu tombol**, mempermudah bendahara masjid/mushalla untuk memasukkan data pemasukan dan pengeluaran keuangan sesuai dengan kategori/kelompok transaksi.
 
-##### Laporan Keuangan Komprehensif
+##### 2. Laporan Keuangan Komprehensif
 Keuangan Terkelola dengan Sempurna: **Laporan Bulanan, Per-Kategori, dan Per-Pekan** menyajikan informasi lengkap tentang saldo, pemasukan, pengeluaran, serta sisa saldo, memudahkan pemantauan kas masjid dengan efisien.
 
-##### Buku Catatan Beragam Kebutuhan
+##### 3. Buku Catatan Beragam Kebutuhan
 Pencatatan Keuangan Beragam Kegiatan: Mencatat setiap kegiatan secara terpisah dalam buku catatan keuangan, mulai dari **operasional harian masjid, infaq buka puasa senin/kamis,** hingga **kegiatan qurban** dan lainnya. Dapat disesuaikan sesuai kebutuhan masjid Anda.
 
-##### Publikasi laporan Online
+##### 4. Publikasi laporan Online
 Digitalisasi Tampilan Laporan Kas Masjid/Mushalla! Dengan sistem ini, laporan keuangan yang bersifat publik dapat diunggah dan **diakses oleh Jamaah/masyarakat secara online**, memberikan transparansi yang lebih baik melalui halaman web.
 
-##### Jadwal Pengajian Praktis
+##### 5. Jadwal Pengajian Praktis
 Susun dan Bagikan Jadwal Pengajian: Input dan edit jadwal pengajian dengan mudah, serta publikasikan **Jadwal Khatib, Pengajian Umum & Pengajian Muslimah** untuk kemudahan akses informasi Jamaah.
 
 Untuk jangka panjang, Tim BukuMasjid akan menambah berbagai fitur untuk memudahkan Bendahara Masjid untuk melakukan **Analisa dan Perencanaan terhadap Manajemen Keuangan Masjid**. Sehingga Bendahara Masjid dapat membuat keputusan yang tepat dalam perencanaan keuangan masjid melalui analisa mendalam terkait Pemasukan dan Pengeluaran Masjid.
