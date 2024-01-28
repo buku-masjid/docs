@@ -15,35 +15,59 @@ homepage: false
 ---
 ![Buku Masjid Ar Rahman Banjarmasin, Laporan Keuangan Masjid Digital](images/blog/2024-01-19-transformasi-sukses-masjid-ar-rahman_01.png "Buku Masjid Ar Rahman Banjarmasin")
 
-Dalam era digital yang terus berkembang, banyak masjid menghadapi tantangan dalam manajemen keuangan mereka. Salah satu masjid yang berhasil mengatasi kendala tersebut adalah Masjid Ar Rahman di Jl. Kampung Melayu Banjarmasin. Surawardi, bendahara masjid ini, telah berbagi pengalamannya tentang bagaimana BukuMasjid membantu mereka mengelola keuangan dengan lebih mudah dan terstruktur.
-
-Masjid Ar Rahman terletak di jl. Kampung Melayu Banjarmasin menjadi tempat lebih dari 1000 jamaah dalam melaksanakan ibadah tiap harinya. Tantangan besar muncul dalam mencatat arus keuangan masjid.
+Masjid Ar Rahman Banjarmasin adalah salah satu masjid yang menginginkan perubahan metode pengelolaan keuangan agar lebih efisien dan hemat waktu. Tim BukuMasjid menemui Pak Surawardi, bendahara masjid ini, beliau menceritakan bagaimana repotnya jadi bendahara dalam urusan catat-mencatat transaksi, kemudian mengelompokkan transaksi setiap hari, dan setiap awal bulan membuat laporan keuangan.
 
 #### Permasalahan yang dihadapi Bendahara Masjid
 
-Sebelum menggunakan sistem BukuMasjid, Surawardi merasakan kesulitan dalam mencatat setiap pemasukan dan pengeluaran masjid dengan rapi terutama saat membuat laporan bulanan. **Aktivitas transaksi yang cukup tinggi, pemasukan kotak infaq harian hingga pengajian dan pengeluaran operasional, membuat beliau cukup kewalahan**. Karena sehari-hari beliau juga bekerja sebagai akuntan pajak di sebuah perusahaan.
+Kata beliau, banyak orang keberatan ditunjuk jadi bendahara masjid karena repot, harus telaten mencatat transaksi, buat laporan pertanggung jawaban, dan kadang mesti begadang menyusun dan mengelompokkan transaksi. Sementara sehari-hari juga ada kesibukan mencari nafkah.
 
-Kesulitan beliau berpuncak ketika **harus begadang untuk membuat laporan kas setiap awal bulan**, memastikan semua pencatatan transaksi tidak ada yang terlewat. Dan keesokan harinya beliau tetap harus berangkat kerja seperti biasa.
+#### Riset pengembangan BukuMasjid
 
-Berangkat dari keresahan dan kesulitan pengelolaan keuangan ini, Surawardi pada akhirnya menggunakan Buku Masjid untuk mempermudah pengelolaan keuangan masjid Ar Rahman.
+Dari beliau lah pertama kali tim BukuMasjid melakukan riset, menggali bagaimana metode yang umumnya dilakukan oleh bendahara masjid dalam mencatat pemasukan dan pengeluaran harian, apa saja kelompok/kategori tiap transaksi, bagaimana bendahara melaporkan catatan transaksi tiap pekan ke dewan pengurus masjid, dan bagaimana membuat laporan keuangan bulanan yang biasa ditempel di papan pengumuman masjid.
 
-Bulan pertama menggunakan sistem BukuMasjid, Surawardi mengalami perubahan signifikan dalam manajemen keuangan masjid. Beliau menceritakan bagaimana **mudahnya mencatat pemasukan dan pengeluaran kas masjid cukup melalui handphone saja**. "Ketika sedang minum teh di warung pun, Saya bisa input pemasukan lewat handphone. Cukup terima laporan dari wakil bendahara melalui whatsapp langsung saya input ke BukuMasjid" diterangkan Surawardi.
+Setelah riset dan pengembangan selama 3 bulan, proyek tahap pertama selesai. Alhamdulillah pak Surawardi langsung menggunakan sistem BukuMasjid untuk mencatat transaksi harian masjid di bulan itu. **Setiap transaksi yang diinput langsung masuk ke laporan per pekan dan laporan bulan berjalan**. Sejak saat itu beliau tidak perlu lagi meluangkan waktu secara khusus untuk membuat laporan per pekan dan per bulan. Karena sistem BukuMasjid *menggenerate* laporan secara otomatis setiap kali ada input pemasukan dan pengeluaran.
 
-#### Manfaat Setelah Menggunakan BukuMasjid
+"Ketika sedang minum teh di warung pun, saya bisa catat pemasukan lewat hape. Cukup terima laporan dari wakil bendahara melalui Whatsapp, langsung saya input ke BukuMasjid." kata pak Surawardi.
 
-Selama empat bulan terakhir, Masjid Ar Rahman menjadi pengguna aktif BukuMasjid. Surawardi merasakan berbagai kemudahan, termasuk struktur pencatatan keuangan yang lebih terorganisir, kemudahan input melalui ponsel, **pembuatan otomatis laporan keuangan bulanan dalam format PDF**, dan pelacakan pengeluaran berlebihan melalui daftar pengeluaran keseluruhan.
+Tim BukuMasjid juga mengutip testimoni yang dirasakan oleh pak Surawardi: Ketika ketua masjid butuh laporan keuangan, beliau tinggal download PDF, lalu beliau kirim ke Ketua. Dan semuanya cukup dilakukan hanya melalui telpon genggam. Sangat ringkas, sangat mempermudah pekerjaan bendahara.
 
-Surawardi cukup optimis bahwa dengan menggunakan sistem BukuMasjid, Pengelola Masjid tidak perlu khawatir lagi dengan beban dan pekerjaan yang rumit. Beliau mengapresiasi inovasi tim BukuMasjid dalam menciptakan solusi digital untuk pencatatan keuangan masjid.
+Alhamdulillah sistem BukuMasjid bisa mempermudah pekerjaan bendahara, sehingga beliau lebih fokus ke hal lain yang lebih penting. Urusan catatan dan laporan keuangan, BukuMasjid solusinya.
 
-"Sistem BukuMasjid sangat membantu saya ketika melaksanakan tugas sebagai Bendahara Masjid. Dengan sistem ini, saya dapat menjalankan aktivitas utama saya sebagai pegawai akuntan pajak tanpa terganggu. Saya berharap bahwa ke depannya, kehadiran sistem BukuMasjid akan memberikan kemudahan kepada semua pengurus Masjid. Mereka tidak perlu lagi khawatir dengan beban besar dan kompleksitas pekerjaan yang harus dihadapi, karena **pencatatan keuangan Masjid yang rumit telah berhasil digantikan dengan pencatatan laporan keuangan secara digital yang mudah**, ini sebuah inovasi yang bagus dari tim BukuMasjid" diungkapkan Surawardi.
+{{< alert icon="💡" context="warning" >}}
+Jika ada pemasukan, input di BukuMasjid.<br>
+Ada pengeluaran, input di BukuMasjid.<br>
+Mau lihat laporan bulan ini, lihat di BukuMasjid.<br>
+Mau lihat laporan bulan-bulan lalu, buka di BukuMasjid.<br>
+
+*BukuMasjid: Solusi praktis dalam genggaman.*
+{{< /alert >}}
 
 #### Rencana Pengembangan Mendatang
+
 Tim BukuMasjid saat ini tengah **mempersiapkan berbagai fitur menyambut Bulan Ramadhan, Idul Fitri dan Idul Adha**. Dalam waktu dekat, BukuMasjid akan menyediakan fitur jadwal donatur buka puasa ramadhan, pencatatan zakat fitrah dan fidyah, lengkap dengan pendisitribusiannya. Selain itu, akan tersedia juga fitur pencatatan qurban beserta otomatisasi pembuatan kwitansi pembayaran.
 
-###### Ayo Buktikan! Kemudahan Pengelolaan 3X Lebih Cepat dan Efisien
+##### *Ayo Buktikan! Kemudahan Pengelolaan 3X Lebih Cepat dan Efisien*
 
-Mengalami keresahan yang serupa dengan Pak Surawardi? Atau merasa bahwa Laporan Keuangan Masjid Anda belum terstruktur dengan baik? BukuMasjid dapat memberikan kemudahan dan efisiensi pencatatan laporan keuangan masjid Anda hingga 3x lipat
+**Tentang BukuMasjid**
 
-Hubungi kami untuk menggunakan sistem BukuMasjid, **gratis 2 bulan penyesuaian bagi seluruh pengguna baru**. Kontak kami melalui Whatsapp.  <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
+Oh ya, bagi yang belum tahu, BukuMasjid adalah sebuah sistem keuangan masjid berbasis web. Software ini open source dan gratis, source codenya bisa didapatkan melalui link di bawah ini.
 
-Kelola Dengan Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.
+> [https://github.com/buku-masjid/buku-masjid](https://github.com/buku-masjid/buku-masjid)
+
+Panduan install dan cara penggunaannya tersedia di sini:
+> [Cara install BukuMasjid di PC/laptop]({{< relref "docs/installation/requirements" >}})<br>
+> [Panduan pengguna BukuMasjid]({{< relref "tutorial/transaction/list" >}})
+
+**Ada pertanyaan/butuh bantuan?**
+
+Bagi pengurus masjid yang ingin tanya-tanya atau butuh bantuan, bisa menghubungi tim BukuMasjid melalui Whatsapp <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>.
+
+Tim BukuMasjid juga meyediakan layanan full maintenance/pemeliharaan (dengan biaya Rp. 100rb per bulan), sehingga pengurus masjid tinggal pakai saja. Jika berminat, silahkan menghubungi tim BukuMasjid melalui Whatsapp <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>.
+
+__*Kelola Dengan Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.*__
+
+Terima kasih atas waktunya sudah membaca artikel ini.
+
+Hormat Kami,
+
+Tim BukuMasjid.
