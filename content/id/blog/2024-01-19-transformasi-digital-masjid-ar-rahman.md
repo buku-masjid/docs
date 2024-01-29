@@ -46,7 +46,7 @@ Mau lihat laporan bulan-bulan lalu, buka di BukuMasjid.<br>
 
 Tim BukuMasjid saat ini tengah **mempersiapkan berbagai fitur menyambut Bulan Ramadhan, Idul Fitri dan Idul Adha**. Dalam waktu dekat, BukuMasjid akan menyediakan fitur jadwal donatur buka puasa ramadhan, pencatatan zakat fitrah dan fidyah, lengkap dengan pendisitribusiannya. Selain itu, akan tersedia juga fitur pencatatan qurban beserta otomatisasi pembuatan kwitansi pembayaran.
 
-##### *Ayo Buktikan! Kemudahan Pengelolaan Lebih dan Efisien*
+##### *Ayo Buktikan! Kemudahan Pengelolaan 3x Lebih Cepat dan Efisien*
 
 **Tentang BukuMasjid**
 
