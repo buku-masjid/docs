@@ -6,7 +6,7 @@ date: 2024-01-19T16:00:00+08:00
 lastmod:
 draft: false
 weight: 50
-images: []
+images: ["/images/blog/2024-01-19-transformasi-digital-masjid-ar-rahman_01.png"]
 categories: ["News"]
 tags: []
 contributors: ["Zidni Ilman"]
