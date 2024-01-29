@@ -1,7 +1,7 @@
 ---
-title: "Transformasi Sukses Masjid Ar Rahman dengan BukuMasjid"
-description: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Keberhasilan! Temukan kisah inspiratif digitalisasi dalam pencatatan laporan keuangan masjid"
-excerpt: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Keberhasilan! Temukan kisah inspiratif digitalisasi dalam pencatatan laporan keuangan masjid"
+title: "Transformasi Digital Masjid Ar Rahman dengan BukuMasjid"
+description: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Kemudahan! Temukan kisah digitalisasi pencatatan laporan keuangan masjid"
+excerpt: "Transformasi Keuangan Masjid Ar Rahman dari Keresahan menjadi Kemudahan! Temukan kisah digitalisasi pencatatan laporan keuangan masjid"
 date: 2024-01-19T16:00:00+08:00
 lastmod:
 draft: false
@@ -13,7 +13,7 @@ contributors: ["Zidni Ilman"]
 pinned: false
 homepage: false
 ---
-![Buku Masjid Ar Rahman Banjarmasin, Laporan Keuangan Masjid Digital](images/blog/2024-01-19-transformasi-sukses-masjid-ar-rahman_01.png "Buku Masjid Ar Rahman Banjarmasin")
+![Buku Masjid Ar Rahman Banjarmasin, Laporan Keuangan Masjid Digital](images/blog/2024-01-19-transformasi-digital-masjid-ar-rahman_01.png "Buku Masjid Ar Rahman Banjarmasin")
 
 Masjid Ar Rahman Banjarmasin adalah salah satu masjid yang menginginkan perubahan metode pengelolaan keuangan agar lebih efisien dan hemat waktu. Tim BukuMasjid menemui Pak Surawardi, bendahara masjid ini, beliau menceritakan bagaimana repotnya jadi bendahara dalam urusan catat-mencatat transaksi, kemudian mengelompokkan transaksi setiap hari, dan setiap awal bulan membuat laporan keuangan.
 
@@ -46,7 +46,7 @@ Mau lihat laporan bulan-bulan lalu, buka di BukuMasjid.<br>
 
 Tim BukuMasjid saat ini tengah **mempersiapkan berbagai fitur menyambut Bulan Ramadhan, Idul Fitri dan Idul Adha**. Dalam waktu dekat, BukuMasjid akan menyediakan fitur jadwal donatur buka puasa ramadhan, pencatatan zakat fitrah dan fidyah, lengkap dengan pendisitribusiannya. Selain itu, akan tersedia juga fitur pencatatan qurban beserta otomatisasi pembuatan kwitansi pembayaran.
 
-##### *Ayo Buktikan! Kemudahan Pengelolaan 3X Lebih Cepat dan Efisien*
+##### *Ayo Buktikan! Kemudahan Pengelolaan Lebih dan Efisien*
 
 **Tentang BukuMasjid**
 
