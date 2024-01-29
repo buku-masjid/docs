@@ -1,6 +1,6 @@
 ---
 title: "Nafies Luthfi"
-description: "Creator of Hyas."
+description: "Pengelola Buku Masjid."
 date: 2023-09-30T23:40:00+08:00
 lastmod:
 draft: false
