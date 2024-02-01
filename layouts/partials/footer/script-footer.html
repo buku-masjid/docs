@@ -74,15 +74,15 @@
 {{ $js := $slice | resources.Concat "main.js" -}}
 
 {{ if .Site.Params.analytics.googletagid -}}
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.googletagid }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '{{ .Site.Params.analytics.googletagid }}');
-  </script>
+  <!-- https://developers.google.com/tag-platform/security/guides/csp -->
+  <!-- Google Tag Manager -->
+  <script nonce='sha512-RGGByJUOP98hE4wFZM78RM/3MijWJs0Tm0DbfrFhCDCXKXfDx60fii+syp5iMs3UcNX/1H4zJNgmqSejfhHrYw=='>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+  n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{ .Site.Params.analytics.googletagid }}');</script>
+  <!-- End Google Tag Manager -->
 {{ end -}}
 
 {{ if eq (hugo.Environment) "development" -}}
