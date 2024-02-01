@@ -6,3 +6,8 @@
   {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
   <script>{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
+
+{{ if .Site.Params.analytics.googletagid -}}
+  <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+{{ end }}

@@ -13,6 +13,12 @@
     {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}"{{ if eq .Site.Params.options.scrollSpy true }} data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -90%" data-bs-smooth-scroll="true" tabindex="0"{{ end }}>
+    {{ if .Site.Params.analytics.googletagid -}}
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.analytics.googletagid }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    {{ end }}
     {{ partial "header/header.html" . }}
     <div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
       <div class="content">
