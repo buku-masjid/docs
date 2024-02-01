@@ -19,7 +19,7 @@ Masjid Ar Rahman Banjarmasin adalah salah satu masjid yang menginginkan perubaha
 
 #### Permasalahan yang dihadapi Bendahara Masjid
 
-Kata beliau, banyak orang keberatan ditunjuk jadi bendahara masjid karena repot, harus telaten mencatat transaksi, buat laporan pertanggung jawaban, dan kadang mesti begadang menyusun dan mengelompokkan transaksi. Sementara sehari-hari juga ada kesibukan mencari nafkah.
+Kata beliau, banyak orang keberatan ditunjuk jadi bendahara masjid karena repot, harus telaten mencatat transaksi, buat laporan pertanggung jawaban, dan kadang menyita banyak waktu untuk menyusun dan mengelompokkan transaksi. Sementara sehari-hari juga ada kesibukan mencari nafkah.
 
 #### Riset pengembangan BukuMasjid
 
