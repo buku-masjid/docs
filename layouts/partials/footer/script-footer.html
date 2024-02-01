@@ -76,6 +76,15 @@
 {{ if .Site.Params.analytics.googletagid -}}
   <!-- Google Tag Manager -->
   <!-- https://medium.com/@vilcins/how-to-add-google-tag-manager-code-to-your-hugo-website-e0b1c8990f26 -->
+  <!-- create dataLayer -->
+   <!-- OPTIONAL dataLayer -->
+  <script>
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      page:'{{ .Title }}',
+      categories:'Your dataLayer'
+    });
+  </script>
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
