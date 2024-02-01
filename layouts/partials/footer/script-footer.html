@@ -73,6 +73,18 @@
 
 {{ $js := $slice | resources.Concat "main.js" -}}
 
+{{ if .Site.Params.analytics.googletagid -}}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.googletagid }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ .Site.Params.analytics.googletagid }}');
+  </script>
+{{ end -}}
+
 {{ if eq (hugo.Environment) "development" -}}
   {{ if .Site.Params.options.bootStrapJs -}}
     <script src="{{ $bs.RelPermalink }}" defer></script>
