@@ -41,7 +41,7 @@ Akses halaman Laporan pada platform BukuMasjid.
 
 **2. Pilih Opsi Laporan:**
 Pada halaman Laporan, pilih opsi laporan yang sesuai dengan kebutuhan, seperti Laporan Per Bulan, Per Kategori, atau Rincian Transaksi.
-    
+
 ![Pilih Opsi Laporan](images/blog/2024-02-02-panduan-praktis-buat-laporan_03.png "Pilih Opsi Laporan")
 
 **3. Laporan Per Bulan:**
@@ -49,27 +49,41 @@ Jika memilih Laporan Per Bulan, laporan PDF yang tercetak akan mencakup ringkasa
 
 ![Laporan Per Bulan](images/blog/2024-02-02-panduan-praktis-buat-laporan_04.png "Laporan Per Bulan")
 
-    
+Download PDF:
+[Laporan Bulan Januari 2024.pdf](/files/blog/2024-02-02-panduan-praktis-buat-laporan_01.pdf "Laporan Per Bulan")
+
 **4. Laporan Per Kategori:**
 Jika memilih Laporan Per Kategori, laporan PDF yang tercetak akan menampilkan total transaksi berdasarkan kategori-kategori.
-    
+
 ![Laporan Per Kategori](images/blog/2024-02-02-panduan-praktis-buat-laporan_05.png "Laporan Per Kategori")
+
+Download PDF:
+[Laporan per Kategori - Januari 2024.pdf](/files/blog/2024-02-02-panduan-praktis-buat-laporan_02.pdf "Laporan per Kategori - Januari 2024")
 
 **5. Laporan Rincian Transaksi:**
 Jika memilih Rincian Transaksi, laporan PDF akan mencetak data keseluruhan untuk setiap kategori transaksi.
-    
+
 ![Laporan Rincian Transaksi](images/blog/2024-02-02-panduan-praktis-buat-laporan_06.png "Laporan Rincian Transaksi")
-    
+
+Download PDF:
+[Laporan Rincian Transaksi - Januari 2024.pdf](/files/blog/2024-02-02-panduan-praktis-buat-laporan_03.pdf "Laporan Rincian Transaksi - Januari 2024")
+
 Pengurus Masjid dapat menggunakan fitur cetak laporan per bulan untuk melaporkan kepada jamaah, sementara Cetak Laporan Rincian dapat digunakan untuk kebutuhan internal pengurus.
 
 Dengan langkah-langkah yang mudah ini, fitur Sekali Klik buat laporan keuangan masjid pdf pada BukuMasjid memberikan kemudahan dan kejelasan dalam menyajikan informasi keuangan masjid sesuai dengan kebutuhan pengurus dan jamaah.
 
 **Tanggapan Pengguna**
 
-Pak Surawardi, Bendahara Masjid Ar Rahman, telah merasakan manfaat signifikan dari penggunaan fitur tersebut. Ia mencatat bahwa fitur ini tidak hanya memperpendek proses rekapitulasi bulanan, tetapi juga mengurangi risiko kekeliruan perhitungan secara substansial. Bahkan, melaporkan keuangan setiap minggu bukan lagi kendala bagi Pak Surawardi. Dengan demikian, proses pelaporan keuangan masjid menjadi lebih rutin dan transparan, memberikan manfaat yang nyata bagi pengurus internal masjid serta jamaah. Pak Surawardi adalah contoh nyata dari bagaimana fitur ini dapat meningkatkan efisiensi dan transparansi dalam pengelolaan keuangan masjid secara keseluruhan.
+Pak Surawardi, Bendahara Masjid Ar Rahman Banjarmasin, telah merasakan manfaat signifikan dari penggunaan fitur tersebut. Beliau mencatat bahwa fitur ini tidak hanya mempersingkat proses rekapitulasi bulanan, tetapi juga mengurangi risiko kekeliruan perhitungan *(human error)*. Bahkan, melaporkan keuangan setiap pekan bukan lagi kendala bagi Pak Surawardi, cukup Sekali Klik. Dengan demikian, proses pelaporan keuangan masjid menjadi lebih rutin dan transparan, memberikan manfaat yang nyata bagi pengurus internal masjid serta jamaah. Kemudahan yang dirasakan oleh Pak Surawardi adalah satu contoh bagaimana fitur ini dapat meningkatkan efisiensi dan transparansi dalam pengelolaan keuangan masjid secara keseluruhan.
 
 **Tertarik mencoba kemudahan sistem BukuMasjid?**
 
-Hubungi kami untuk menggunakan sistem BukuMasjid, **Gratis 2 bulan penyesuaian bagi seluruh pengguna baru**. Kontak kami melalui Whatsapp.  <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
+Hubungi kami untuk mencoba sistem BukuMasjid, **gratis 2 bulan pertama**. Kontak kami melalui Whatsapp: <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
 
 __*Kelola Dengan Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.*__
+
+Terima kasih atas waktunya sudah membaca artikel ini.
+
+Hormat Kami,
+
+Tim BukuMasjid.
