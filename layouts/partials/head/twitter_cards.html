@@ -1,7 +1,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="{{ .Site.Params.twitterSite }}">
 <meta name="twitter:creator" content="{{ .Site.Params.twitterCreator }}">
-<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:title" content="{{if .IsHome}}{{ .Site.Params.titleAddition }}{{ else }}{{ with .Title }}{{ . }}{{ end }}{{ end }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.title }}">
 <meta name="twitter:description" content="{{ .Description }}">
 {{ with $.Params.images -}}
   <meta name="twitter:image" content="{{ index . 0 | absURL }}">

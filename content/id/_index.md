@@ -1,7 +1,7 @@
 ---
 title : "Buku Masjid"
-description: "Buku Masjid adalah sistem pengelolaan keuangan dan jadwal pengajian masjid berbasis web."
-lead: "Buku Masjid adalah sistem pengelolaan keuangan dan jadwal pengajian masjid berbasis web."
+description: "Kelola keuangan masjid hingga 3x lebih cepat, hanya melalui genggaman Anda. Buat laporan Keuangan Masjid Bulanan & Input transaksi keuangan, Hanya Sekali klik!"
+lead: "Kelola keuangan masjid hingga 3x lebih cepat, hanya melalui genggaman Anda. Buat laporan Keuangan Masjid Bulanan & Input transaksi keuangan, Hanya Sekali klik!"
 date: 2023-08-30T10:21:00+08:00
 lastmod: 2023-08-30T10:21:00+08:00
 draft: false
