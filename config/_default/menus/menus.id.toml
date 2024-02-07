@@ -43,6 +43,16 @@
   url = "/blog/"
   weight = 30
 
+[[main]]
+  name = "Harga"
+  url = "/pricing/"
+  weight = 40
+
+[[main]]
+  name = "Hubungi Kami"
+  url = "/contact/"
+  weight = 50
+
 # [[main]]
 #   name = "Tutorial"
 #   weight = 50
