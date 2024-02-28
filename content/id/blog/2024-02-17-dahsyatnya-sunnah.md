@@ -16,7 +16,7 @@ homepage: false
 
 ![Dahsyatnya Sunnah untuk Kehidupan Sehari-hari](images/blog/2024-02-17-dahsyatnya-sunnah-01.jpg "Dahsyatnya Sunnah untuk Kehidupan Sehari-hari")
 
-Ustadz Khalid Basalamah, seorang pendakwah yang dikenal dengan kefasihannya dalam menyampaikan pesan agama, membawa kita dalam sebuah ceramah yang menyoroti pentingnya ibadah dalam kehidupan sehari-hari. Dalam ceramah yang disampaikannya di platform YouTube, Ustadz Khalid mengungkapkan bahwa ada satu rahasia penting dalam menjalankan ibadah sehari-hari yang sering terabaikan, yaitu konsistensi.
+Ustadz Khalid Basalamah, seorang pendakwah yang dikenal dengan kefasihannya dalam menyampaikan pesan agama, membawa kita dalam sebuah ceramah yang menyoroti pentingnya ibadah dalam kehidupan sehari-hari. Dalam ceramah beliau yang dipubliksaikan di YouTube, Ustadz Khalid mengungkapkan bahwa ada satu rahasia penting dalam menjalankan ibadah sehari-hari yang sering terabaikan, yaitu konsistensi.
 
 Ustadzz Khalid mengatakan bahwa membiasakan diri untuk menjalankan ibadah kepada Allah SWT tidak hanya memberikan kemudahan dalam menjalankan ibadah tersebut, tetapi juga memberikan berkah yang luar biasa. Sebagai contoh, Beliau menyebutkan tentang rutinitas salat malam yang dilakukan dengan konsisten. Ketika seseorang menjadikan shalat malam sebagai kebiasaan, ibadah tersebut menjadi ringan dan mudah dilakukan. Bahkan, ketika ibadah itu ditinggalkan, seseorang merasa tidak nyaman karena sudah terbiasa melakukannya.
 
