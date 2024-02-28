@@ -1,7 +1,7 @@
 ---
 title: "Dahsyatnya Sunnah untuk Kehidupan Sehari-hari, Khalid Basalamah"
-description: "Rahasia hidup berkah dengan Ibadah Sunnah, Ust Khalid Basalamah menjelaskan keutamaan ibadah sunnah yang dapat diamalkan untuk membuat hidup lebih berkah"
-excerpt: "Rahasia hidup berkah dengan Ibadah Sunnah, Ust Khalid Basalamah menjelaskan keutamaan ibadah sunnah yang dapat diamalkan untuk membuat hidup lebih berkah"
+description: "Rahasia hidup berkah dengan Ibadah Sunnah, Ustadz Khalid Basalamah menjelaskan keutamaan ibadah sunnah yang dapat diamalkan untuk membuat hidup lebih berkah"
+excerpt: "Rahasia hidup berkah dengan Ibadah Sunnah, Ustadz Khalid Basalamah menjelaskan keutamaan ibadah sunnah yang dapat diamalkan untuk membuat hidup lebih berkah"
 date: 2024-02-17T08:00:00+08:00
 lastmod:
 draft: false
@@ -18,7 +18,7 @@ homepage: false
 
 Ustadz Khalid Basalamah, seorang pendakwah yang dikenal dengan kefasihannya dalam menyampaikan pesan agama, membawa kita dalam sebuah ceramah yang menyoroti pentingnya ibadah dalam kehidupan sehari-hari. Dalam ceramah beliau yang dipubliksaikan di YouTube, Ustadz Khalid mengungkapkan bahwa ada satu rahasia penting dalam menjalankan ibadah sehari-hari yang sering terabaikan, yaitu konsistensi.
 
-Ustadzz Khalid mengatakan bahwa membiasakan diri untuk menjalankan ibadah kepada Allah SWT tidak hanya memberikan kemudahan dalam menjalankan ibadah tersebut, tetapi juga memberikan berkah yang luar biasa. Sebagai contoh, Beliau menyebutkan tentang rutinitas salat malam yang dilakukan dengan konsisten. Ketika seseorang menjadikan shalat malam sebagai kebiasaan, ibadah tersebut menjadi ringan dan mudah dilakukan. Bahkan, ketika ibadah itu ditinggalkan, seseorang merasa tidak nyaman karena sudah terbiasa melakukannya.
+Ustadz Khalid mengatakan bahwa membiasakan diri untuk menjalankan ibadah kepada Allah SWT tidak hanya memberikan kemudahan dalam menjalankan ibadah tersebut, tetapi juga memberikan berkah yang luar biasa. Sebagai contoh, Beliau menyebutkan tentang rutinitas salat malam yang dilakukan dengan konsisten. Ketika seseorang menjadikan shalat malam sebagai kebiasaan, ibadah tersebut menjadi ringan dan mudah dilakukan. Bahkan, ketika ibadah itu ditinggalkan, seseorang merasa tidak nyaman karena sudah terbiasa melakukannya.
 
 Poin penting yang diungkapkan oleh Ustadz Khalid adalah betapa pentingnya menjaga amalan-amalan sunnah. Beliau mengutip kisah ulama tabi'in, Uwais Al-Qarni, yang menjalankan salat malam secara rutin hingga tingkat yang luar biasa. Bahkan, Uwais Al-Qarni pernah menjalankan salat malam dengan melakukan ruku sebanyak 11 macam bacaan yang berbeda, menunjukkan betapa konsistensinya dalam beribadah.
 
