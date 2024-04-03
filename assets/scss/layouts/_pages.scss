@@ -62,3 +62,9 @@ p.meta {
 .page-link:hover {
   text-decoration: none;
 }
+
+li > blockquote {
+  font-size: 1.125rem;
+  border-left: none;
+  padding-left: 0;
+}
