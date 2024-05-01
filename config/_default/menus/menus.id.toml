@@ -48,6 +48,11 @@
   weight = 40
   url = "/contact/"
 
+[[main]]
+  name = "Donasi"
+  weight = 50
+  url = "/donate/"
+
 # [[main]]
 #   name = "Tutorial"
 #   weight = 50
