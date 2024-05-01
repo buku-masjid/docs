@@ -11,7 +11,7 @@
       <a class="btn btn-lg text-white px-4 mb-2" style="background-color: #2D79DB" href="{{ .Site.Params.schemaGitHub }}" role="button">Source Code</a>
       <a class="btn btn-lg text-white px-4 mb-2" style="background-color: #FFC205" target="_blank" href="https://demo.bukumasjid.com" role="button">Coba Demo</a>
       {{ $whatsappNumber := getenv "HUGO_PARAMS_WHATSAPP_NUMBER" | default "0000" }}
-      <a class="btn btn-lg text-white px-4 mb-2" style="background-color: #FF5B04" target="_blank" href="https://wa.me/{{ $whatsappNumber }}" role="button">Hubungi Kami</a>
+      <a class="btn btn-lg text-white px-4 mb-2" style="background-color: #FF5B04" href="{{ "contact" | absURL }}" role="button">Hubungi Kami</a>
     <p class="meta">Open-source MIT Licensed.</p>
     </div>
   </div>

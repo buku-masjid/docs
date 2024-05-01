@@ -63,6 +63,10 @@ p.meta {
   text-decoration: none;
 }
 
+li > p {
+  margin-bottom: 0;
+}
+
 li > blockquote {
   font-size: 1.125rem;
   border-left: none;
