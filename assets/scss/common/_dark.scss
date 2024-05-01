@@ -331,6 +331,10 @@ $navbar-dark-active-color:          $link-color-dark;
   border-left: 3px solid $border-dark;
 }
 
+[data-dark-mode] li > blockquote {
+  border-left: none;
+}
+
 [data-dark-mode] body .footer {
   border-top: 1px solid $border-dark;
 }
