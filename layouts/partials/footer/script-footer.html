@@ -73,16 +73,10 @@
 
 {{ $js := $slice | resources.Concat "main.js" -}}
 
-{{ if .Site.Params.analytics.googletagid -}}
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.googletagid }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '{{ .Site.Params.analytics.googletagid }}');
-  </script>
+{{ if .Site.Params.analytics.goatcountercode -}}
+  <!-- Goat counter tag -->
+<script data-goatcounter="https://{{ .Site.Params.analytics.goatcountercode }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 {{ end -}}
 
 {{ if eq (hugo.Environment) "development" -}}
