@@ -49,6 +49,11 @@
   url = "/contact/"
 
 [[main]]
+  name = "Layanan Gratis"
+  weight = 45
+  url = "/free-cloud/"
+
+[[main]]
   name = "Donasi"
   weight = 50
   url = "/donate/"
