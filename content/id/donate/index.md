@@ -13,19 +13,12 @@ Buku Masjid adalah sistem pengelolaan keuangan dan jadwal pengajian masjid berba
 
 Kami dari Tim Buku Masjid mulai memberikan layanan untuk masjid-masjid yang memerlukan sistem Buku Masjid Online. Lebih kurang bisa disebut layanan **"Buku Masjid Cloud"**. Layanan ini bersifat **gratis** untuk masjid-masjid ingin menggunakan sistem Buku Masjid, tetapi tidak memiliki tim IT yang dapat mengelola sistem secara mandiri.
 
-Setiap masjid yang menggunakan layanan ini akan memiliki subdomain dan database sendiri-sendiri (tidak tercampur antara satu masjid dengan yang lain).
-
-Contoh: <br>
-- Buku Masjid Ar-Rahman Banjarmasin menggunakan alamat <br>
-web (subdomain): [https://arrahman-bjm.bukumasjid.com](https://arrahman-bjm.bukumasjid.com).
-- Buku Masjid Al Mujahidin Banjarmasin: <br>
-[https://almujahidin-belitung.bukumasjid.com](https://almujahidin-belitung.bukumasjid.com).
-
-Layanan ini memang gratis untuk masjid, tetapi **sebenarnya membutuhkan biaya** untuk operasionalnya (terutama biaya sewa server dan domain).
+Detail dari layanan ini dapat dilihat pada halaman:
+- [**Layanan Buku Masjid Cloud Gratis**]({{< relref "free-cloud" >}})
 
 ### Nomor Rekening Donasi
 
-Untuk itu, Kami dari Tim Buku Masjid membuka satu rekening khusus untuk menerima donasi yang akan digunakan digunakan untuk operasional Buku Masjid Cloud dan development sistem opensource Buku Masjid secara umum.
+Layanan ini memang gratis untuk masjid, tetapi sebenarnya membutuhkan **biaya** untuk operasionalnya (terutama biaya sewa server dan domain). Untuk itu, Kami dari Tim Buku Masjid membuka satu rekening khusus untuk menerima donasi yang akan digunakan digunakan untuk operasional Buku Masjid Cloud dan development sistem opensource Buku Masjid secara umum.
 
 Berikut nomor rekening donasi Proyek Buku Masjid:
 
@@ -44,9 +37,12 @@ Donasi ini bersifat bebas untuk siapa saja, tidak mengikat, sifatnya bukan berla
 
 Untuk apa dana donasinya? Dana donasi yang kami terima akan digunakan beberapa hal berikut:
 
-1. Biaya sewa dan pengelolaan server
-1. Biaya sewa domain bukumasjid.com
-1. Untuk development dan pengelolaan [proyek open-source Buku Masjid](https://github.com/buku-masjid/buku-masjid)
+1. Biaya sewa dan pengelolaan server.
+1. Biaya sewa domain bukumasjid.com.
+1. Untuk development dan pengelolaan [proyek open-source Buku Masjid](https://github.com/buku-masjid/buku-masjid).
+
+Laporan penggunaan dana donasi dapat dilihat pada link berikut:
+- <a href="https://s.id/kas-donasi-bukumasjid" target="_blank">**Laporan Kas Donasi Buku Masjid**</a>
 
 ### Kepada Donatur
 
