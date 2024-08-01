@@ -51,6 +51,19 @@
 
   <section class="section section-featured mt-3 bg-light py-5">
     <div class="container">
+      <h2 class="h3 mt-0 text-center">Sponsor</h2>
+      <div class="row justify-content-center">
+          <a href="https://www.instagram.com/raizora_indonesia" target="_blank" class="col-6 col-md-3 text-center text-decoration-none">
+            {{ $image := resources.Get "images/sponsors/raizora.png" }}
+            <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $image.Permalink }}" data-srcset="{{ $image.Permalink }}" width="150px" height="150px" alt="Raizora Indonesia sebagai sponsor Buku Masjid">
+            <strong class="mt-0">Raizora Indonesia</strong>
+          </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-featured mt-3 py-5">
+    <div class="container">
       <h2 class="h3 mt-0 text-center">Tampilan Web</h2>
       <div class="row justify-content-center mt-3 g-4">
         {{ range $.Site.Data.slides.id }}
