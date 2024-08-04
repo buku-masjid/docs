@@ -34,7 +34,7 @@ Login ke MariaDB:
 sudo mariadb -u root
 ```
 
-Membuat database:
+Membuat database dan user database:
 
 ```
 CREATE DATABASE bukumasjid;
