@@ -52,7 +52,7 @@ Install Apache:
 sudo apt install apache2 -y
 ```
 
-Membuat file konfigurasi virtual hosting untuk subdomain `bm.namamasjid.com`, silakan sesuaikan dengan domain/subdomain yang digunakan:
+Membuat file konfigurasi virtual host untuk subdomain `bm.namamasjid.com`, silakan sesuaikan dengan domain/subdomain yang digunakan:
 
 ```
 sudo nano /etc/apache2/sites-available/bm.namamasjid.com.conf
