@@ -4,6 +4,13 @@ description: "Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache 
 lead: "Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server."
 date: 2023-08-30T10:21:00+08:00
 lastmod: 2024-08-04T11:11:00+08:00
+draft: false
+images: []
+menu:
+  docs:
+    parent: "deployment"
+weight: 300
+toc: true
 ---
 
 ## Install MariaDB 
