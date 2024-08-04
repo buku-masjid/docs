@@ -85,6 +85,10 @@ sudo systemctl restart apache2
 
 ## Install SSL
 
+{{< alert icon="👉" context="warning" >}}
+Sebelum melanjutkan proses install SSL, pastikan domain/subdomain sudah diarahkan ke IP Address VPS terlebih dahulu.
+{{< /alert >}}
+
 Install certbot:
 
 ```
