@@ -103,7 +103,7 @@ sudo certbot --non-interactive \
 --redirect
 ```
 
-## Install PHP
+## Install PHP 8.1 dan composer
 
 Memasang repository PPA untuk PHP:
 
