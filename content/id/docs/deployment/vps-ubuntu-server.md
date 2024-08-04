@@ -1,16 +1,9 @@
 ---
-title: "VPS - Ubuntu Server (TODO)"
-description: "Cara menginstall Buku Masjid di VPS - Ubuntu Server."
-lead: "Cara menginstall Buku Masjid di VPS - Ubuntu Server."
+title: "VPS - Ubuntu Server (Apache)"
+description: "Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server."
+lead: "Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server."
 date: 2023-08-30T10:21:00+08:00
-lastmod: 2023-08-31T11:11:00+08:00
-draft: false
-images: []
-menu:
-  docs:
-    parent: "deployment"
-weight: 300
-toc: true
+lastmod: 2024-08-04T11:11:00+08:00
 ---
 
 ## Install MariaDB 
