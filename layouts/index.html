@@ -53,26 +53,13 @@
     <div class="container">
       <h2 class="h3 mt-0 text-center">Sponsor</h2>
       <div class="row justify-content-center">
-          <a href="https://www.instagram.com/raizora_indonesia" target="_blank" class="col-6 col-md-3 text-center text-decoration-none">
-            {{ $image := resources.Get "images/sponsors/raizora.png" }}
-            <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $image.Permalink }}" data-srcset="{{ $image.Permalink }}" width="150px" height="150px" alt="Raizora Indonesia sebagai sponsor Buku Masjid">
-            <strong class="mt-0">Raizora Indonesia</strong>
-          </a>
-          <a href="https://pondokteknologi.com" target="_blank" class="col-6 col-md-3 text-center text-decoration-none">
-            {{ $image := resources.Get "images/sponsors/pondok_teknologi.png" }}
-            <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $image.Permalink }}" data-srcset="{{ $image.Permalink }}" width="150px" height="150px" alt="Pondok Teknologi sebagai sponsor Buku Masjid">
-            <strong class="mt-0">Pondok Teknologi</strong>
-          </a>
-          <a href="https://mushaira.id" target="_blank" class="col-6 col-md-3 text-center text-decoration-none">
-            {{ $image := resources.Get "images/sponsors/mushaira.png" }}
-            <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $image.Permalink }}" data-srcset="{{ $image.Permalink }}" width="150px" height="150px" alt="Mushaira sebagai sponsor Buku Masjid">
-            <strong class="mt-0">Mushaira</strong>
-          </a>
-          <a href="https://ptpsig.com" target="_blank" class="col-6 col-md-3 text-center text-decoration-none">
-            {{ $image := resources.Get "images/sponsors/ptpsig.png" }}
-            <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $image.Permalink }}" data-srcset="{{ $image.Permalink }}" width="150px" height="150px" alt="Pyramidsoft Indonesia Group sebagai sponsor Buku Masjid">
-            <strong class="mt-0">Pyramidsoft Indonesia Group</strong>
-          </a>
+          {{ range $.Site.Data.sponsors.id }}
+            <a href="{{ .url }}" target="_blank" class="col-6 col-md-3 text-center text-decoration-none">
+              {{ $image := resources.Get .image_path }}
+              <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $image.Permalink }}" data-srcset="{{ $image.Permalink }}" width="150px" height="150px" alt="{{ .name }} sebagai sponsor Buku Masjid">
+              <strong class="mt-0">{{ .name }}</strong>
+            </a>
+          {{ end }}
       </div>
     </div>
   </section>
