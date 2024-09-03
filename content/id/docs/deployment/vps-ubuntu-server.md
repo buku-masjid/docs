@@ -169,6 +169,12 @@ Copy file `.env`:
 cp .env.example .env
 ```
 
+Generate key:
+
+```
+php artisan key:generate
+```
+
 Membuka file `.env`:
 
 Sesuaikan konfigurasinya, seperti nama masjid, URL, timezone, dan database:
