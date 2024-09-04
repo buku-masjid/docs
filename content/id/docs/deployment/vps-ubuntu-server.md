@@ -5,7 +5,7 @@ lead: "Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Ser
 date: 2023-08-30T10:21:00+08:00
 lastmod: 2024-08-04T11:11:00+08:00
 draft: false
-images: []
+images: ["/images/youtube-deploy-vps-ubuntu-server.png"]
 menu:
   docs:
     parent: "deployment"
@@ -13,7 +13,10 @@ weight: 300
 toc: true
 ---
 
-{{< youtube JYfRzlYLgM8 >}}
+<a href="https://www.youtube.com/watch?v=JYfRzlYLgM8" target="_blank" title="Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server">
+  <img class="img-fluid blur-up ls-is-cached lazyloaded" srcset="/images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_688bbbb2c14112d49dba66cdcb5ea3a9.webp 480w, /images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_f5b25242561149678909d0b1532c8fa8.webp 720w, /images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_f9bcebf4f68f71acdb9dc02c97e112f7.webp 1080w, /images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_d4c7935f9bc75c02e403537c4ead5016.webp 1280w" sizes="80vw" src="/images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_1280x0_resize_q75_h2_box_3.webp" alt="Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server" title="Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server" width="1280" height="720">
+</a>
+(<a href="https://www.youtube.com/watch?v=JYfRzlYLgM8" target="_blank">Klik untuk melihat video tutorial</a>)
 
 ## Install MariaDB
 
@@ -71,10 +74,10 @@ Masukkan konfigurasinya:
         Options -Indexes +FollowSymLinks +MultiViews
         AllowOverride All
         Require all granted
-    </Directory>    
+    </Directory>
 
     ErrorLog /var/log/apache2/bm.namamasjid.com_error.log
-    CustomLog /var/log/apache2/bm.namamasjid.com_access.log combined    
+    CustomLog /var/log/apache2/bm.namamasjid.com_access.log combined
 </VirtualHost>
 ```
 
@@ -82,7 +85,7 @@ Mengaktifkan virtual host dan restart Apache:
 
 ```
 sudo a2ensite bm.namamasjid.com.conf
-sudo systemctl restart apache2	
+sudo systemctl restart apache2
 ```
 
 ## Install SSL
@@ -215,7 +218,7 @@ php artisan migrate --seed
 Ada pertanyaan APPLICATION IN PRODUCTION, jawab `yes`:
 
 ```
-Do you really wish to run this command? (yes/no) [no] yes	
+Do you really wish to run this command? (yes/no) [no] yes
 ```
 
 Membuat passport key:
@@ -240,10 +243,10 @@ sudo mv buku-masjid /var/www/bm.namamasjid.com
 Mengubah ownership direktori:
 
 ```
-sudo chown -R www-data:www-data /var/www/bm.namamasjid.com	
+sudo chown -R www-data:www-data /var/www/bm.namamasjid.com
 ```
 
-Buku Masjid sudah dapat diakses melalui `https://bm.namamasjid.com`. 
+Buku Masjid sudah dapat diakses melalui `https://bm.namamasjid.com`.
 
 Login dengan menggunakan default user:
 
