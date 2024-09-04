@@ -13,7 +13,9 @@ weight: 300
 toc: true
 ---
 
-## Install MariaDB 
+{{< youtube JYfRzlYLgM8 >}}
+
+## Install MariaDB
 
 Update dan upgrade Ubuntu terlebih dahulu:
 
@@ -176,6 +178,10 @@ php artisan key:generate
 ```
 
 Membuka file `.env`:
+
+```
+nano .env
+```
 
 Sesuaikan konfigurasinya, seperti nama masjid, URL, timezone, dan database:
 
