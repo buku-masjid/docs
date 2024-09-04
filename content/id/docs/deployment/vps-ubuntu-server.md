@@ -13,9 +13,8 @@ weight: 300
 toc: true
 ---
 
-<a href="https://www.youtube.com/watch?v=JYfRzlYLgM8" target="_blank" title="Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server">
-  <img class="img-fluid blur-up ls-is-cached lazyloaded" srcset="/images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_688bbbb2c14112d49dba66cdcb5ea3a9.webp 480w, /images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_f5b25242561149678909d0b1532c8fa8.webp 720w, /images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_f9bcebf4f68f71acdb9dc02c97e112f7.webp 1080w, /images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_d4c7935f9bc75c02e403537c4ead5016.webp 1280w" sizes="80vw" src="/images/youtube-deploy-vps-ubuntu-server_hu99fcb03fe99dadb4a8d7358b42a1a6b4_404387_1280x0_resize_q75_h2_box_3.webp" alt="Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server" title="Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server" width="1280" height="720">
-</a>
+![Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server](images/youtube-deploy-vps-ubuntu-server.png "Cara menginstall Buku Masjid di VPS - Ubuntu Server dengan Apache Web Server")
+
 (<a href="https://www.youtube.com/watch?v=JYfRzlYLgM8" target="_blank">Klik untuk melihat video tutorial</a>)
 
 ## Install MariaDB
