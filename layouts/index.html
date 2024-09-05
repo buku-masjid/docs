@@ -51,10 +51,10 @@
 
   <section class="section section-featured mt-3 bg-light py-5" id="sponsors">
     <div class="container">
-      <h2 class="h3 mt-0 text-center">Sponsor</h2>
+      <h2 class="h3 mt-0 text-center">Sponsor / Mitra</h2>
       <div class="row justify-content-center">
           {{ range $.Site.Data.sponsors.id }}
-            <a href="{{ .url }}" target="_blank" class="col-6 col-md-3 text-center text-decoration-none">
+            <a href="{{ .url }}" target="_blank" class="col-6 col-md-3 text-center text-decoration-none mt-3 mt-sm-0">
               {{ $image := resources.Get .image_path }}
               <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $image.Permalink }}" data-srcset="{{ $image.Permalink }}" width="150px" height="150px" alt="{{ .name }} sebagai sponsor Buku Masjid">
               <strong class="mt-0">{{ .name }}</strong>
