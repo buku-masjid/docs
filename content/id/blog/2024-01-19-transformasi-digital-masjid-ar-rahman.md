@@ -62,8 +62,6 @@ Panduan install dan cara penggunaannya tersedia di sini:
 
 Bagi pengurus masjid yang ingin tanya-tanya atau butuh bantuan, bisa menghubungi tim BukuMasjid melalui Whatsapp <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>.
 
-Tim BukuMasjid juga meyediakan layanan full maintenance/pemeliharaan (dengan biaya Rp. 100rb per bulan), sehingga pengurus masjid tinggal pakai saja. Jika berminat, silahkan menghubungi tim BukuMasjid melalui Whatsapp <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>.
-
 __*Kelola Dengan Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.*__
 
 Terima kasih atas waktunya sudah membaca artikel ini.

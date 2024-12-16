@@ -41,6 +41,6 @@ Susun dan Bagikan Jadwal Pengajian: Input dan edit jadwal pengajian dengan mudah
 
 Untuk jangka panjang, Tim BukuMasjid akan menambah berbagai fitur untuk memudahkan Bendahara Masjid untuk melakukan Analisa dan Perencanaan terhadap Manajemen Keuangan Masjid. Sehingga Bendahara Masjid dapat membuat keputusan yang tepat dalam perencanaan keuangan masjid melalui analisa mendalam terkait Pemasukan dan Pengeluaran Masjid.
 
-Hubungi kami untuk menggunakan sistem BukuMasjid, **Gratis 2 bulan penyesuaian bagi seluruh pengguna baru**. Kontak kami melalui Whatsapp.  <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
+Hubungi kami untuk menggunakan sistem BukuMasjid, kontak kami melalui Whatsapp.  <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
 
 Kelola Dengan Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.

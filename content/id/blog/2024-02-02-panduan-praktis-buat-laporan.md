@@ -78,7 +78,7 @@ Pak Surawardi, Bendahara Masjid Ar Rahman Banjarmasin, telah merasakan manfaat s
 
 **Tertarik mencoba kemudahan sistem BukuMasjid?**
 
-Hubungi kami untuk mencoba sistem BukuMasjid, **GRATIS 2 Bulan Pertama**. Kontak kami melalui Whatsapp: <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
+Hubungi kami untuk mencoba sistem BukuMasjid, kontak kami melalui Whatsapp: <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
 
 __*Kelola Lebih Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.*__
 
