@@ -76,9 +76,9 @@ Dengan langkah-langkah yang mudah ini, fitur Sekali Klik buat laporan keuangan m
 
 Pak Surawardi, Bendahara Masjid Ar Rahman Banjarmasin, telah merasakan manfaat signifikan dari penggunaan fitur tersebut. Beliau mencatat bahwa fitur ini tidak hanya mempersingkat proses rekapitulasi bulanan, tetapi juga __*mengurangi risiko kekeliruan perhitungan (human error)*__. Bahkan, melaporkan keuangan setiap pekan bukan lagi kendala bagi Pak Surawardi, cukup Sekali Klik. Dengan demikian, proses pelaporan keuangan masjid menjadi lebih rutin dan transparan, memberikan manfaat yang nyata bagi pengurus internal masjid serta jamaah. Kemudahan yang dirasakan oleh Pak Surawardi adalah satu contoh bagaimana fitur ini dapat meningkatkan efisiensi dan transparansi dalam pengelolaan keuangan masjid secara keseluruhan.
 
-**Tertarik mencoba kemudahan sistem BukuMasjid?**
+**Tertarik mencoba kemudahan sistem Buku Masjid?**
 
-Hubungi kami untuk mencoba sistem BukuMasjid, kontak kami melalui Whatsapp: <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
+Silakan daftar di: **[[Daftar Buku Masjid Cloud](https://bukumasjid.com/register.php)]**. Atau hubungi tim Buku Masjid kontak kami melalui Whatsapp: <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>
 
 __*Kelola Lebih Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.*__
 

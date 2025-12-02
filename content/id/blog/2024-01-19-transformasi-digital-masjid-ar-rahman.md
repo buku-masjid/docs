@@ -50,7 +50,7 @@ Tim BukuMasjid saat ini tengah **mempersiapkan berbagai fitur menyambut Bulan Ra
 
 **Tentang BukuMasjid**
 
-Oh ya, bagi yang belum tahu, BukuMasjid adalah sebuah sistem keuangan masjid berbasis web. Software ini open source dan gratis, source codenya bisa didapatkan melalui link di bawah ini.
+Oh ya, bagi yang belum tahu, BukuMasjid adalah sebuah sistem keuangan masjid berbasis web. Software ini open source, source codenya bisa didapatkan melalui link di bawah ini.
 
 > [https://github.com/buku-masjid/buku-masjid](https://github.com/buku-masjid/buku-masjid)
 
@@ -58,9 +58,15 @@ Panduan install dan cara penggunaannya tersedia di sini:
 > [Cara install BukuMasjid di PC/laptop]({{< relref "docs/installation/requirements" >}})<br>
 > [Panduan pengguna BukuMasjid]({{< relref "tutorial/transaction/list" >}})
 
+**Layanan Buku Masjid Cloud (berbayar)**
+
+Bagi pengurus masjid yang inggi menggunakan Buku Masjid tanpa repot install dan maintenance mandiri, Tim Buku Masjid juga membuka layanan **[Buku Masjid Cloud](https://bukumasjid.com/cloud.php)** dengan sistem langganan per bulan (tersedia Free Trial 1 bulan).
+
+Silakan daftar di: **[[Daftar Buku Masjid Cloud](https://bukumasjid.com/register.php)]**.
+
 **Ada pertanyaan/butuh bantuan?**
 
-Bagi pengurus masjid yang ingin tanya-tanya atau butuh bantuan, bisa menghubungi tim BukuMasjid melalui Whatsapp <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>.
+Bagi pengurus masjid yang ingin tanya-tanya atau butuh bantuan, bisa menghubungi Contact Center Buku Masjid melalui Whatsapp <a href="https://wa.me/{{< whatsapp_number >}}" target="_blank">wa.me/{{< whatsapp_number >}}</a>.
 
 __*Kelola Dengan Mudah, Catat Lebih Cepat: BukuMasjid, Inovasi Keuangan Digital Masjid.*__
 
