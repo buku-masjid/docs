@@ -3,7 +3,7 @@ title: "Buku Masjid Cloud"
 description: "Layanan sistem keuangan masjid gratis."
 date: 2024-05-30T22:50:00+08:00
 lastmod: 2024-05-30T22:50:00+08:00
-draft: false
+draft: true
 images: []
 ---
 
