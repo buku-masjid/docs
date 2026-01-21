@@ -3,7 +3,7 @@ title: "Donasi"
 description: "Informasi Nomor Rekening Bank untuk donasi pengembangan proyek Buku Masjid."
 date: 2024-05-01T10:55:12+08:00
 lastmod: 2024-05-01T10:55:12+08:00
-draft: false
+draft: true
 images: []
 ---
 
