@@ -1,0 +1,527 @@
+$cl-primary: #2D6974;
+$cl-secondary: #2E7BA6;
+$cl-accent: #CB7A00;
+$cl-default: #3a3a3a;
+
+/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: $cl-default;
+  font-size: 1em;
+  line-height: 1.4;
+}
+body { 
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+  .bm-grad          { background: linear-gradient(180deg, #1C3B41 0%, #2D6974 100%); }
+  .header           { 
+    a               { color: #fff}
+  }
+  .offcanvas        { width: 80% !important;}
+  .sidebar-menu     {
+    ul              { list-style: none; margin:0; padding: 0}
+  }
+  .heading          { font-family: 'Gilroy', sans-serif !important; font-weight: 800;}
+  .heading-light    { font-family: 'Gilroy', sans-serif !important; font-weight: 300;}
+  .content-light    { font-family: 'Inter', sans-serif !important; font-weight: 300;}
+  .hero-home        { text-align: center;
+    .bismillah      { 
+      #text-bismillah { width: 40%;}
+    }
+    .text-buku, .text-masjid      
+                    { width: 100%}
+    .activity1      { position:absolute; bottom: -10px; right: 30%; width: 10vw; 
+                      max-width: 130px; z-index: 5;}
+    .activity2      { position:absolute; top: -30%; right: 0%; width: 20vw; 
+                      max-width: 250px; z-index: 1;}
+    .tree           { position:absolute; top: -90%; right: 11%; width: 20vw; 
+                      max-width: 250px;
+                     z-index: 1;}
+  }
+  .grey-area        { background: rgb(242,245,237);
+    background: linear-gradient(90deg, rgba(242,245,237,1) 0%, rgba(229,234,229,1) 100%); border-top: 1px solid #E7E7E7;
+                      border-bottom: 1px solid #E7E7E7;}
+  .sebaran-about    { padding: 50px 0;}
+  .sebaran-map      { background-color: #F7F7F7; border-radius: 30px; position: relative;
+    img             { width: 100%}
+    .map            { mix-blend-mode: darken; }
+  }
+  .sebaran-stat     { position: relative; width: 100%; left: 0; top: 0px;
+    .stat           { text-align: center;border-radius: 20px; width: 80%; padding: 20px;
+                      background: #FFF; box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.11); margin-bottom: 20px;
+      .number       { font-weight: 800;}
+    }
+  }
+  .testimonial      {  width: 100%; box-sizing: border-box; padding: 20px;
+    .stat           { text-align: center;border-radius: 20px; width: 100%; padding: 30px;
+                      background: #FFF; margin-right: 20px; box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.11);
+    }
+  }
+  .sebaran-code     { padding: 50px 30px; box-sizing: border-box;}
+  .preview          { padding: 50px 0; position: relative;
+    .browser        { position: relative; z-index: 2; text-align: center;
+      .window       { width: 100%; height: auto; position: relative; z-index: 1;}
+      .screen       { position: absolute; top: 12%; left: 0px; z-index: 3;
+        img         {width: 100%;}
+      }
+    }
+    .phone          { position: relative; z-index: 3; width: 100%; text-align: center; 
+                      box-sizing: border-box; padding: 0 20px;
+      .device       { width: 100%; height: auto; z-index: 2; position: relative;}
+      .screen       { position: absolute; top: 0; left: 0; z-index: 1; border-radius: 20px; 
+                      width: 100%; text-align: center; box-sizing: border-box; padding: 0 20px;
+        img         {width: 100%;}
+      }
+    }
+    .person         { width: 400px; position: absolute; left: -8%;top: 0; z-index: 0;}
+  }
+  .team-hero        { padding: 120px 50px 50px 50px; text-align: center;}
+  .card-bm          {-webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+                      box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1); border-radius: 20px; background-color: #fff; box-sizing: border-box; padding: 20px;
+    label           { font-size: 12px; color: #444;}
+    .info           { border-radius: 10px; border: 1px solid #E1F1F4; background: #F0FDFF; 
+                      font-size: 12px; color: #006D7E; box-sizing: border-box; padding:10px}
+  }
+  .pricing-box      { -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1); 
+                      box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1); padding: 35px 20px;border-radius: 20px; position: relative; border: 1px solid #eee;
+    .plan           { font-size: 34px; }
+    .mb-2, .my-2    { margin-bottom: .5rem!important; }
+    p               { line-height: 1.7; }
+  }
+  
+  .pricing-badge    { position: absolute; top: 0; z-index: 999; right: 0; width: 100%; 
+                      display: block; font-size: 15px; padding: 0; overflow: hidden; height: 100px;
+
+    .badge          { float: right; -webkit-transform: rotate(45deg); transform: rotate(45deg);
+                    right: -67px; top: 17px; position: relative; text-align: center; width: 200px; font-size: 13px; margin: 0; padding: 7px 10px; font-weight: 500; color: #ffffff; background: #fb7179;
+    }
+  }
+  .feature-list     { box-sizing: border-box; padding: 30px 30px 0 30px;
+    .icon           {font-size: 30px; color: $cl-primary;}
+    h4              {font-size: 18px;}
+    .feat-item      {font-size: 12px; padding-bottom: 30px}
+  }
+
+  .support          { background-color: #F7F7F7;  border-top: 1px solid #E7E7E7;   
+                      border-bottom: 1px solid #E7E7E7;
+    .logo           { width: 140px; box-sizing: border-box; color: grey; font-size: 12px;
+      img           { width: 100%;}
+    }
+  }
+
+ /**
+ * Remove focus styles for non-keyboard focus.
+ */
+  :focus:not(:focus-visible) { outline: 0; box-shadow: none; }
+  :focus,
+  .focus-visible:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow:
+      0 0 0 .2rem #fff,
+      0 0 0 .35rem #069;
+  }
+
+  /* BOOTSTRAP TWEAK */
+  /* ACCORDION */
+  .accordion-button   { background-color: transparent !important; font-size: 20px; 
+                        font-weight: bold; padding: 30px 0;}
+  .accordion-button:not(.collapsed) 
+                      { color: $cl-primary; outline: none;}
+  .accordion-button:not(.collapsed)::after 
+                      { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");}
+  .accordion-item   { background-color: transparent !important;
+                      border-bottom: 1px solid rgba(0,0,0,.125) !important; border-top: none !important; border-left: none !important; border-right: none !important;}
+  .accordion-body   { padding: 30px; box-sizing: border-box; line-height: 150%;
+                      font-size: 16px}
+  /* CAROUSEL */
+  .carousel-indicators { 
+    button { background-color: #ccc !important;}
+    .active { background-color: $cl-primary !important;}
+  }
+
+  .footer           { padding: 50px 0;
+    h2              { font-family: 'Gilroy', sans-serif !important; font-weight: 800;}
+  }
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+   a { color: $cl-primary; text-decoration: none;}
+   a:hover { color: $cl-primary; text-decoration: underline;}
+  .txt-primary { color: $cl-primary; }
+  .txt-secodary { color: $cl-secondary; }
+  .txt-accent { color: $cl-accent; }
+  .txt-default { color: $cl-default; }
+
+  .bg-primary { background-color: $cl-primary !important; }
+  .bg-secondary { background-color: $cl-secondary !important; }
+  .bg-accent { background-color: $cl-accent !important; }
+  .txt-default { color: $cl-default; }
+
+  .btn { border-radius: 9px !important; color: #fff !important;}
+  .btn-outline-primary { border-radius: 9px !important; color: #2D6974 !important; border: 1px solid #2D6974; background-color: #F0FDFF;}
+  .btn-outline-primary:hover { color: #2D6974 !important; border: 1px solid #2D6974; background-color: #fff;}
+  .bw-img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+/*
+ * Hide visually and from screen readers
+ */
+
+.hiddenx,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * The use of `table` rather than `block` is only necessary if using
+ * `::before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.jm-content {
+  padding: 26px;
+}
+.jm-section {
+  margin: 20px 0;
+}
+.hero-team {
+  width: 30vw; 
+}
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+  .header           { 
+    .nav-desktop    { font-size: 13px; box-shadow: 0px 2px 6px -4px rgba(0, 0, 0, 0.3);
+      a             {color: $cl-primary; background-color: #fff; }
+      a:first-child { border-top-left-radius: 5px; border-bottom-left-radius: 5px }
+      a:last-child  { border-top-right-radius: 5px; border-bottom-right-radius: 5px }
+      a:hover { background-color: #dae3e4;text-decoration: none;}
+    }
+    a               { color: #fff}
+  }
+  .offcanvas        { width: 80% !important;}
+  .sidebar-menu     {
+    ul              { list-style: none; margin:0; padding: 0}
+  }
+  .heading          { font-family: 'Gilroy', sans-serif !important; font-weight: 800;}
+  .heading-light    { font-family: 'Gilroy', sans-serif !important; font-weight: 300;}
+  .content-light    { font-family: 'Inter', sans-serif !important; font-weight: 300;}
+  .hero-home        {
+    .bismillah      { position:relative; top: 50px; width: 100%;
+      #text-bismillah { width: 300px;}
+    }
+    .text-buku, .text-masjid      
+                    { width: 80%}
+    .activity1      { position:absolute; bottom: -10px; right: 30%; width: 10vw; max-width: 130px}
+    .activity2      { position:absolute; top: -30%; right: 0%; width: 20vw; max-width: 250px; z-index: 1;}
+    .tree           { position:absolute; top: -90%; right: 11%; width: 20vw; max-width: 250px;
+                     z-index: 1;}
+  }
+  .grey-area        { background: rgb(242,245,237);
+    background: linear-gradient(90deg, rgba(242,245,237,1) 0%, rgba(229,234,229,1) 100%); border-top: 1px solid #E7E7E7;
+                      border-bottom: 1px solid #E7E7E7;}
+  .sebaran-about    { padding: 100px 0 250px 0;}
+  .sebaran-map      { background-color: #F7F7F7; border-radius: 30px; position: relative;
+    .map            { padding: 20px 0 150px 0;
+      img           { width: 100%; mix-blend-mode: darken; }
+    }
+  }
+  .sebaran-stat     { position: absolute; width: 100%; left: 0; top: -100px;
+    .stat           { text-align: center;border-radius: 20px; width: 200px; padding: 20px;
+                      background: #FFF; margin-right: 20px; box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.11);
+      .number       { font-weight: 800;}
+    }
+    .stat:last-child { margin-right: 0}
+  }
+  .testimonial      {  position: absolute; width: 100%; box-sizing: border-box; padding: 100px; transform: translate(-50%, -50%) !important; top: 100% !important; left: 50% !important;
+    .stat           { text-align: center;border-radius: 20px; width: 100%; padding: 50px;
+                      background: #FFF; margin-right: 20px; box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.11);
+    }
+  }
+  .sebaran-code     { padding: 300px 0 150px 0 ;}
+  .preview { padding: 100px 0; position: relative;
+    .phone { position: absolute; left: 10%; bottom: -100px; z-index: 3; padding: 0; width: auto;
+      .device { width: 100%; height: auto; position: relative; z-index: 2;}
+      .screen { position: absolute; top: 0; left: 0; z-index: 1; width: 100%; padding:0; background-color: #fff;
+
+        img {width: 100%;}
+      }
+    }
+    .person { width: 400px; position: absolute; left: -8%;top: 0; z-index: 0;}
+  }
+  .team-hero{ padding: 120px 50px; text-align: left;}
+  .card-bm {
+    -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; background-color: #fff; box-sizing: border-box; padding: 20px;
+    label { font-size: 12px; color: #444;}
+    .info { border-radius: 10px;
+      border: 1px solid #E1F1F4;
+      background: #F0FDFF; font-size: 12px; color: #006D7E; box-sizing: border-box; padding:10px}
+  }
+  .pricing-box {
+    -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+    padding: 35px 50px;
+    border-radius: 20px;
+    position: relative;
+    .plan { font-size: 34px; }
+    .mb-2, .my-2 {
+      margin-bottom: .5rem!important;
+    }
+    p {
+        line-height: 1.7;
+    }
+  }
+  
+  .pricing-badge { position: absolute; top: 0; z-index: 999; right: 0; width: 100%;
+                   display: block; font-size: 15px; padding: 0; overflow: hidden; height: 100px;
+
+    .badge      { float: right; -webkit-transform: rotate(45deg); transform: rotate(45deg);
+                  right: -67px; top: 17px; position: relative; text-align: center;
+      width: 200px;
+      font-size: 13px;
+      margin: 0;
+      padding: 7px 10px;
+      font-weight: 500;
+      color: #ffffff;
+      background: #fb7179;
+    }
+  }
+  .jm-content {
+    padding: 200px 1.5rem 0px 1.5rem;
+  }
+  .jm-section { margin: 200px 0;}
+  .jm-pilar {
+    position: absolute; transform: translate(-50%, -50%);
+  }
+  .support      { background-color: #F7F7F7; border-top: 1px solid #E7E7E7; 
+                  border-bottom: 1px solid #E7E7E7;
+    .logo       { width: 140px; box-sizing: border-box; color: grey; font-size: 12px;
+      img       { width: 100%;}
+    }
+  }
+  .footer       { padding: 100px 0;
+    h2          { font-family: 'Gilroy', sans-serif !important; font-weight: 800;}
+  }
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+   
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+

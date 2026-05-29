@@ -1,0 +1,278 @@
+{{ define "main" }}
+  <div class="d-sm-none position-fixed bottom-0 text-center w-100" style="padding: 60px 30px 30px 30px; z-index:20; background: #ffffff;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(229, 234, 229, 1) 40%, rgba(241, 244, 241, 1) 57%, rgba(249, 250, 249, 1) 80%, rgba(255, 255, 255, 1) 99%);" >
+    <a href="/register"><button class="btn bg-primary fs-5 w-100" type="button" style="padding: 15px 20px;">Daftarkan Masjid Anda</button></a>
+  </div>
+  <section class="hero-home">
+    <div class="bm-grad" id="starContainer">
+      {{ partial "nav-mobile-home.html" . }}
+      <div class="d-none d-sm-block header container-md px-5 pt-5 ">
+        <div class="row align-items-center position-relative">
+          <img src="/img/bm_logo_white.svg" class="position-absolute" style="width:150px">
+          <div class="col text-center animate__animated animate__backInDown">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+      <div class="container-md px-md-5 position-relative">
+        <img src="/img/home/img_activity1.png" class="activity1 d-none d-md-inline">
+        <div class="text-center bismillah">
+          <img src="/img/home/text_bismillah.svg" id="text-bismillah" class="animate__animated animate__fadeIn">
+        </div>
+        <div class="text-center pt-md-5">
+          <img src="/img/home/img_txt_buku.svg" class="text-buku animate__animated animate__fadeIn animate__delay-1s">
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container-md px-5 pb-5 position-relative">
+        <img src="/img/home/img_activity2.png" class="activity2 d-none d-md-inline">
+        <img src="/img/home/img_tree.png" class="tree d-none d-md-inline">
+        <div class="position-relative" style="z-index:2">
+          <img src="/img/home/img_txt_masjid.svg" class="text-masjid animate__animated animate__fadeIn animate__delay-2s">
+        </div>
+        <div class="d-grid d-md-block animate__animated animate__fadeIn animate__delay-3s">
+          <a href="https://demo.bukumasjid.com" target="_blank"><button class="btn bg-secondary me-md-2 mb-2" type="button"><i class="ti">&#xea89;</i> Coba Demo</button></a>
+          <a href="/register"><button class="btn bg-primary me-md-2 mb-2" type="button"><i class="ti"> &#xeb04;</i> Daftar Sekarang</button></a>
+          <a href="https://wa.me/628123456789" target="_blank"><button class="btn bg-success me-md-2 mb-2" type="button"><i class="ti">&#xec74;</i> Hubungi Kami</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mb-md-5 pb-md-5">
+    <div class="grey-area">
+      <div class="container-md">
+        <div id="bm-problem" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#bm-problem" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#bm-problem" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#bm-problem" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-md d-md-flex justify-content-center align-items-end">
+                <div class="text-center text-md-end">
+                  <img src="/img/home/img_problem_01.png" class="w-75">
+                </div>
+                <div class="display-5 p-5 my-md-5" style="font-weight: 400">
+                  Butuh waktu lama<br class="d-none d-md-block">
+                  <span class="txt-primary">untuk membuat<br class="d-none d-md-block">
+                  laporan kas masjid?</span
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-md d-md-flex justify-content-center align-items-end">
+                <div class="d-md-none text-center">
+                  <img src="/img/home/img_problem_02.png" class="w-75">
+                </div>
+                <div class="display-5 p-5 my-md-5" style="font-weight: 400">
+                  <span class="txt-primary">Butuh insight<br class="d-none d-md-block">
+                  untuk distribusi</span><br class="d-none d-md-block">
+                  infaq & sodaqoh?
+                </div>
+                <div class="d-none d-md-block text-end">
+                  <img src="/img/home/img_problem_02.png" class="w-75">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-md d-md-flex justify-content-center align-items-end">
+                <div class="text-center text-md-end">
+                  <img src="/img/home/img_problem_03.png" class="w-75">
+                </div>
+                <div class="display-5 p-5 my-md-5" style="font-weight: 400">
+                  <span class="txt-primary">Data Jamaah serta<br class="d-none d-md-block"> Donatur</span> berantakan dan<br class="d-none d-md-block"> tidak lengkap ?
+                </div>
+              </div>
+            </div>
+          </div>
+          <i class="ti display-5 carousel-control-prev" data-bs-target="#bm-problem" data-bs-slide="prev" style="color: #4a4a4a;cursor: pointer">&#xea60;</i>
+          <i class="ti display-5 carousel-control-next" data-bs-target="#bm-problem" data-bs-slide="next" style="color: #4a4a4a;cursor: pointer">&#xea61;</i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md display-3 heading txt-primary lh-1 text-center p-5 mb-md-5" >
+      <span class="txt-default">Buku Masjid</span> menjadi solusi<br class="d-sm-inline"> polemik seputar keuangan<br class="d-sm-inline"> & kegiatan masjid
+    </div>
+    <div class="container-md px-md-5">
+      <div class="row px-md-5">
+        <div class="col-sm px-5 py-3">
+          <img src="/img/home/icon_easy.svg" class="mb-3">
+          <h4>Mudah Diakses</h4>
+          Akses dari manapun selama ada internet. Lewat Ponsel, Tablet, Laptop, PC.
+        </div>
+        <div class="col-sm px-5 py-3">
+          <img src="/img/home/icon_fast.svg" class="mb-3">
+          <h4>Ringkas</h4>
+          Tidak perlu makan banyak waktu untuk membuat laporan bulanan.
+        </div>
+        <div class="col-sm px-5 py-3">
+          <img src="/img/home/icon_view.svg" class="mb-3">
+          <h4>Transparan</h4>
+          Semua transaksi tercatat dengan baik sehingga mudah bagi pengurus masjid atau jamaah untuk melihat kas masjid.
+        </div>
+      </div>
+      <div class="row px-md-5">
+        <div class="col-sm px-5 py-3">
+          <img src="/img/home/icon_secure.svg" class="mb-3">
+          <h4>Aman</h4>
+          Semua data hanya dapat dilihat dan dikelola oleh DKM admin masjid itu sendiri.
+        </div>
+        <div class="col-sm px-5 py-3">
+          <img src="/img/home/icon_flexible.svg" class="mb-3">
+          <h4>Flexible</h4>
+          Buku Masjid dapat digunakan untuk berbagai macam kegiatan masjid yang membutuhkan pencatatan keuangan.
+        </div>
+        <div class="col-sm px-5 py-3">
+          <img src="/img/home/icon_jadwal.svg" class="mb-3">
+          <h4>Jadwal Khatib dan Ceramah</h4>
+          Pengumuman jadwal Khatib Jum'at dan Penceramah tidak hanya di papan pengumuman, tetapi juga bisa melalui web.
+        </div>
+      </div>
+    </div>
+    <div class="preview">
+      <div class="container-md d-flex justify-content-center position-relative" style="z-index: 1">
+        <div class="d-none d-md-inline browser">
+          <div class="screen">
+            <div id="bm-uidesktop" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators" style="bottom: -50px">
+                <button type="button" data-bs-target="#bm-uidesktop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#bm-uidesktop" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#bm-uidesktop" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div>
+                    <img src="/img/home/screen_desktop01.png">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div>
+                    <img src="/img/home/screen_desktop02.png">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div>
+                    <img src="/img/home/screen_desktop03.png">
+                  </div>
+                </div>
+              </div>
+              <i class="ti display-5 carousel-control-prev z-4" data-bs-target="#bm-uidesktop" data-bs-slide="prev" style="color: #4a4a4a;cursor: pointer">&#xea60;</i>
+              <i class="ti display-5 carousel-control-next z-4" data-bs-target="#bm-uidesktop" data-bs-slide="next" style="color: #4a4a4a;cursor: pointer">&#xea61;</i>
+            </div>
+          </div>
+          <img src="/img/home/img_browser2.svg" class="window">
+        </div>
+        <div class="phone">
+          <div class="screen">
+          <div id="bm-uimobile" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators" style="bottom: -50px">
+                <button type="button" data-bs-target="#bm-uimobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#bm-uimobile" data-bs-slide-to="1" aria-label="Slide  laide 2"></button>
+                <button type="button" data-bs-target="#bm-uimobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner" style="border-radius: 40px">
+                <div class="carousel-item active">
+                  <div>
+                  <img src="/img/home/screen_mobile01.png">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div>
+                  <img src="/img/home/screen_mobile02.png">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/home/screen_mobile03.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="/img/home/img_iphone_03.svg" class="device">
+        </div>
+        <img src="/img/home/img_person.png" class="d-none d-md-inline person">
+      </div>
+    </div>
+  </section>
+  <section class="grey-area jm-section">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-md fs-5 content-light p-5 p-md-3 my-md-5">
+          <div class="display-5 heading txt-primary lh-1 pb-3 pb-md-5">Jam Masjid</div>
+          <div class="pe-md-5 me-md-5">Jam masjid digital hadir untuk membantu kelancaran ibadah jemaah. Dengan menampilkan jadwal shalat lima waktu secara otomatis, disesuaikan dengan lokasi masjid. Dengan desain yang modern dan tampilan yang informatif, jam masjid digital telah menjadi bagian tak terpisahkan dari masjid modern.</div>
+          <div class="pt-4 pt-md-5"><a href="/jammasjid"><button class="btn bg-primary me-md-2 mb-2" type="button"><i class="ti">&#xf318;</i>Tentang Jam Masjid</button></a></div>
+        </div>
+        <div class="col-md position-relative ms-md-5">
+          <img src="/img/jammasjid/img-jam-pilar.png" class="w-100 jm-pilar top-50 start-50">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mt-md-5">
+    <div class="sebaran-about container-md px-5">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="display-3 heading txt-primary lh-1 col pb-5 pb-md-0" >
+          Jadikan <span class="txt-default">Buku Masjid</span> sebagai panduan untuk memakmurkan Masjid
+        </div>
+        <div class="fs-2 heading-light lh-sm col">
+          “Sesungguhnya yang memakmurkan masjid-masjid Allah hanyalah orang-orang yang beriman kepada Allah dan hari akhir, serta tetap mendirikan shalat, menunaikan zakat dan tidak takut (kepada siapapun) selain kepada Allah”
+          <br><br>
+          <span class="fs-4 fw-bold">QS. At-Taubah ayat 18</span>
+        </div>
+      </div>
+    </div>
+    <div class="sebaran-map container-md p-5">
+      <div class="d-block d-md-none text-center pb-5">
+         <div class="display-5 txt-primary fw-bolder">Sebaran Pengguna</div>
+         <div class="fs-4">Buku Masjid Cloud</div>
+      </div
+      <div class="sebaran-stat">
+        <div class="row row-cols-2 row-cols-md-4 d-flex justify-content-center">
+          <div class="col stat">
+              <div class="display-1 txt-primary number">35</div>
+              <div>Masjid dan Mushalla</div>
+          </div>
+          <div class="col stat">
+              <div class="display-1 txt-primary number">21</div>
+              <div>Pondok, Rumah Quran & Yayasan</div>
+          </div>
+          <div class="col stat">
+              <div class="display-1 txt-primary number">2</div>
+              <div>Lembaga & Panti Asuhan</div>
+          </div>
+          <div class="col stat">
+              <div class="display-1 txt-primary number">2</div>
+              <div>Lembaga & Wirausaha</div>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-md-block text-center pt-5 mt-5">
+         <div class="display-5 txt-primary fw-bolder">Sebaran Pengguna</div>
+         <div class="fs-4">Buku Masjid Cloud</div>
+      </div>
+      <div class="map text-center">
+        <img src="/img/home/img_sebaran.png" class="d-none d-md-block">
+        <a href="/pengguna"><button class="btn bg-primary me-md-2 mb-2" type="button">Pengguna Buku Masjid</button></a>
+      </div>
+      <div class="testimonial" style="pointer-events: none">
+        <div class="stat">
+            <div class="display-5 txt-primary fw-bolder">Testimonial</div>
+            <div class="fs-md-5 heading-light lh-md5 py-4 py-md-3">"Saya sangat puas menggunakan aplikasi keuangan BukuMasjid,com ini. Antarmuka yang intuitif membuatnya mudah digunakan. Fitur transparansi keuangan sangat membantu meningkatkan kepercayaan jamaah dan donatur. Ketika saya mengalami sedikit kesulitan, tim dukungan teknis langsung merespons dan memperbaiki masalahnya. Aplikasi ini sangat recommended!"</div>
+            <span class="fs-6 fs-md-4 fw-bold">Aji -  Bendahara Masjid Taqwa Suronatan</span>
+        </div>
+      </div>
+    </div>
+    <div class="sebaran-code container-md text-center">
+      <div class="display-3 heading txt-primary lh-1"><span class="txt-default">Buku Masjid</span> <br class="d-none d-sm-block">adalah Solusi Tata Kelola <br class="d-none d-sm-block">Keuangan Masjid!</div>
+      <div class="d-grid d-md-block pt-5">
+        <a href="/cloud"><button class="btn bg-primary me-md-2 mb-2" type="button"><i class="ti">&#xea89;</i> Free Trial</button></a>
+        <a href="https://wa.me/62812345678 la l la" target="_blank"><button class=" la l la" type="button"><i class="ti">&#xec74;</i> Hubungi Kami</button></a>
+      </div>
+    </div>
+  </section>
+  {{ partial "sponsor.html" . }}
+  {{ .Inner }}
+}}
