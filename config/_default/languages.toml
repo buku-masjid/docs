@@ -5,6 +5,8 @@
   [id.params]
     languageISO = "ID"
     languageTag = "id-ID"
+    schemaLocale = "id-ID"
+    ogLocale = "id_ID"
 
 [en]
   languageName = "English"
@@ -13,6 +15,8 @@
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
+    schemaLocale = "en-US"
+    ogLocale = "en_US"
 
 [de]
   languageName = "German"
@@ -21,6 +25,8 @@
   [de.params]
     languageISO = "DE"
     languageTag = "de-DE"
+    schemaLocale = "de-DE"
+    ogLocale = "de_DE"
 
 [nl]
   languageName = "Nederlands"
@@ -29,6 +35,8 @@
   [nl.params]
     languageISO = "NL"
     languageTag = "nl-NL"
+    schemaLocale = "nl-NL"
+    ogLocale = "nl_NL"
     titleAddition = "Modern documentatie-thema"
     description = "Doks is een Hugo-thema waarmee je moderne documentatie-websites kunt bouwen die veilig, snel en klaar voor SEO zijn — standaard."
     titleHome = "Doks thema"

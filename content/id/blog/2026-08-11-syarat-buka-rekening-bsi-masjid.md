@@ -3,10 +3,10 @@ title: "Syarat Buka Rekening BSI untuk Masjid: Berbagi Pengalaman Biar Gak Bolak
 description: "Syarat buka rekening BSI untuk masjid: dokumen yang perlu disiapkan, syarat tambahan, dan tips memilih rekening Wadiah vs Mudharabah."
 excerpt: "Syarat buka rekening BSI untuk masjid: dokumen yang perlu disiapkan, syarat tambahan, dan tips memilih rekening Wadiah vs Mudharabah."
 date: 2026-08-11T01:00:00+08:00
-lastmod:
+lastmod: 2026-08-11T00:37:52+08:00
 draft: false
 weight: 50
-images: []
+images: ["/images/buku-masjid-logo.png"]
 categories: ["Bendahara Masjid"]
 tags: ["BSI", "rekening", "bank", "masjid"]
 contributors: ["Nafies Luthfi"]
@@ -63,6 +63,8 @@ Biar nggak ditolak di kantor Kelurahan, pastikan bawa syarat-syarat ini:
 - **Identitas Ketua:** Fotocopy KTP dan KK Ketua Masjid.
 
 Untuk proses di kelurahan sendiri biasanya cepat kok, cuma sekitar 15 sampai 20 menit dan yang paling penting: **gratis tanpa biaya**.
+
+Setelah rekening masjid jadi, langkah berikutnya adalah memastikan setiap transaksi tercatat rapi. Kalau teman-teman masih bingung mulai dari mana, baca juga [panduan membuat laporan keuangan masjid PDF]({{< relref "blog/2024-02-02-panduan-praktis-buat-laporan.md" >}}) yang bisa dibuat sekali klik.
 
 ## Tips Tambahan dari Saya
 
