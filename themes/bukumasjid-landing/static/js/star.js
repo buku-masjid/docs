@@ -83,5 +83,8 @@ function fallingStars(container = document.body) {
 }
 
 // Auto-initialize with default behavior (append to body)
+// Disabled: halaman non-index tidak punya #starContainer, dan
+// fallingStars() ke body akan terus spawn bintang di semua halaman.
+// Index memanggil addStarsToContainer() yang menangani guard null.
 //staticStars();
-fallingStars();
+//fallingStars();

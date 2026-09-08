@@ -38,14 +38,17 @@
   <script>
     function addStarsToContainer() {
       const container = document.getElementById('starContainer');
+      if (!container) return;
       staticStars(container);
     }
     function clearContainer() {
       const container = document.getElementById('starContainer');
+      if (!container) return;
       container.innerHTML = '';
     }
     function addFallingStars() {
       const container = document.getElementById('starContainer');
+      if (!container) return;
       fallingStars(container);
     }
     addStarsToContainer();
