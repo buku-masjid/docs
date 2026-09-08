@@ -1,0 +1,99 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center position-relative">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3 position-absolute"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px; z-index: 1;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative">
+    <div class="md:absolute w-full" style="z-index: 0;">
+      <img src="/img/jammasjid/img-jammasjid.png" class="hidden md:block 3xl:w-1/2 mx-auto">
+      <img src="/img/jammasjid/img-jammasjid-m.png" class="md:hidden">
+    </div>
+    <div class="container-md p-0 relative">
+      <div class="w-full jm-content md:w-1/2">
+        <div class="display-3 heading txt-primary lh-1 col-lg pb-5 w-full" >
+          Komunikasi Visual <span class="txt-default">Masjid dengan Jamaah</span>
+        </div>
+        <div class="fs-3 content-light md:py-3 w-full">
+          Jam masjid adalah fitur dari buku masjid yang dirancang khusus untuk memenuhi kebutuhan ibadah di masjid.
+        </div>
+      </div>
+      <div class="p-4 pt-0 md:grid grid-cols-1 md:grid-cols-5">
+        <div class="md:col-span-2 text-xl content-light md:py-3 w-full">
+          Secara umum, jam masjid modern tidak hanya menampilkan waktu saat ini, tetapi juga waktu salat (subuh, zuhur, asar, magrib, isya), tanggal, dan hitungan mundur menuju waktu salat berikutnya.
+          <div class="text-6xl font-normal txt-primary content-light pt-[50px]">
+            Lebih dari petunjuk waktu shalat
+          </div>
+        </div>
+        <div class="pt-[80px] md:col-span-3 md:py-3 w-full md:pe-8">
+          <img src="/img/jammasjid/img-time.png" class="xl:w-2/3 lg:ps-[60px] 2xl:ps-[80px] md:w-2/3 ">
+        </div>
+      </div>
+      <div class="pt-[20px]">
+        <img src="/img/jammasjid/img-finance.png" class="hidden md:block w-full">
+        <img src="/img/jammasjid/img-finance-m.png" class="md:hidden w-full">
+      </div>
+      <div class="p-4 md:grid grid-cols-1 md:grid-cols-2 align-items-center">
+        <div class="text-xl content-light md:py-3 w-full md:pe-8">
+          Jam masjid memastikan waktu salat yang ditampilkan selalu akurat dan konsisten. Hal ini sangat membantu jemaah untuk mengetahui kapan waktu salat akan dimulai tanpa harus mengecek kalender atau aplikasi di ponsel.<br><br>
+          Jam masjid juga berfungsi sebagai papan informasi digital yang bisa menampilkan pengumuman penting dari pengurus masjid, seperti jadwal kajian, kegiatan sosial, bahkan informasi keuangan masjid. Dengan transaparansi ini, akan menumbuhkan rasa percaya jamaah kepada masjid.
+        </div>
+        <div class="p-8 text-4xl font-normal content-light md:p-[70px]">
+          Informasi yang penting dan transparan, menjadikan masjid lebih akuntable.
+        </div>
+      </div>
+      <div class="py-4 md:pt-[50px]">
+        <img src="/img/jammasjid/img-full-jammasjid.png" class="hidden md:block w-full">
+        <img src="/img/jammasjid/img-full-jammasjid-m.png" class="md:hidden w-full">
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3">
+        <div class="col-sm px-5 py-3">
+          <img src="/img/jammasjid/icon_time.svg" class="mb-3">
+          <h4 class="text-2xl font-bold">Info Shalat</h4>
+          Jadwal shalat tampil jelas di layar besar masjid, memudahkan jamaah mengetahui waktu shalat tepat waktu.
+        </div>
+        <div class="col-sm px-5 py-3">
+          <img src="/img/jammasjid/icon_program.svg" class="mb-3">
+          <h4 class="text-2xl font-bold">Program Masjid</h4>
+          Tampilkan agenda kegiatan dan program masjid secara real-time di layar TV, tanpa repot membuat banner atau cetakan.
+        </div>
+        <div class="col-sm px-5 py-3">
+          <img src="/img/jammasjid/icon_chart.svg" class="mb-3">
+          <h4 class="text-2xl font-bold">Info Keuangan</h4>
+          Perlihatkan transparansi kas masjid langsung di layar, membuat jamaah merasa lebih percaya dan akuntable.
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3">
+        <div class="col-sm px-5 py-3">
+          <img src="/img/jammasjid/icon_www.svg" class="mb-3">
+          <h4 class="text-2xl font-bold">Flexible</h4>
+          Dapat diatur penuh oleh admin DKM masjid. Semua data aman, hanya pihak berwenang yang dapat mengubah tampilan.
+        </div>
+        <div class="col-sm px-5 py-3">
+          <img src="/img/jammasjid/icon_discount.svg" class="mb-3">
+          <h4 class="text-2xl font-bold">Terjangkau</h4>
+          Satu sistem untuk jadwal shalat, pengumuman, dan laporan. Hemat biaya dan praktis tanpa memerlukan peralatan khusus.
+        </div>
+        <div class="col-sm px-5 py-3">
+          <img src="/img/jammasjid/icon_setting.svg" class="mb-3">
+          <h4 class="text-2xl font-bold">Mudah Digunakan</h4>
+          Pengumuman khatib, jadwal ceramah, dan info penting lainnya bisa muncul otomatis di layar besar masjid, membuat jamaah selalu update.
+        </div>
+      </div>
+      <div class="container-md px-md-5">
+        <div class="text-center  py-8">
+          <a href="/register/"><button class="btn bg-secondary me-md-2 mb-2" type="button"><i class="ti">&#xeb04;</i> Daftar Sekarang</button></a>
+          <a href="https://wa.me/6282350355470" target="_blank"><button class="btn bg-success mb-2" type="button"><i class="ti">&#xec74;</i> Hubungi Kami</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}

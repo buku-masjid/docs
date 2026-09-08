@@ -1,0 +1,166 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md px-5 pt-5 mt-lg-5 position-relative">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="display-3 heading txt-primary lh-1 col-lg pb-5" >
+        Syarat dan Ketentuan
+        <br class="d-none d-md-block"><span class="txt-default">Layanan Buku Masjid</span>
+        </div>
+        <div class="col-lg text=center d-flex align-items-end">
+          <img src="/img/img_wallpattern.svg" class="d-none d-xl-inline position-absolute z-0 top-0 left-0">
+          <img src="/img/contact/img_hero.svg" class="position-relative z-1" style="width: 100%">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey-area">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-4 md:gap-8 lg:gap-12">
+      <aside class="md:col-span-1 mb-8 md:mb-0">
+        <div class="sticky top-8">
+          <nav id="toc-nav" class="flex flex-col space-y-1">
+            <a href="#definisi" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">1. Definisi</a>
+            <a href="#lingkup" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">2. Lingkup Layanan</a>
+            <a href="#pendaftaran" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">3. Pendaftaran Akun</a>
+            <a href="#kewajiban" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">4. Kewajiban Pengguna</a>
+            <a href="#donasi" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">5. Fitur Donasi</a>
+            <a href="#privasi" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">6. Kepemilikan Data</a>
+            <a href="#kekayaan-intelektual" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">7. Kekayaan Intelektual</a>
+            <a href="#batasan" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">8. Batasan Tanggung Jawab</a>
+            <a href="#penghentian" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">9. Penghentian Layanan</a>
+            <a href="#perubahan" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">10. Perubahan Ketentuan</a>
+            <a href="#hukum" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">11. Hukum & Sengketa</a>
+            <a href="#kontak" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">12. Kontak Kami</a>
+          </nav>
+        </div>
+      </aside>
+      <main class="md:col-span-3">
+        <div class="prose max-w-none prose-slate prose-a:text-emerald-600 space-y-12">
+          <section id="pendahuluan">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-stone-200">
+              <h2 class="text-2xl font-semibold mb-3 text-slate-900 border-b pb-2">Selamat Datang di Buku Masjid!</h2>
+              <p>Dokumen ini adalah perjanjian hukum antara Anda sebagai Pengguna dan kami sebagai pengelola layanan Buku Masjid. Dengan menggunakan platform kami di <strong>bukumasjid.com</strong>, Anda setuju untuk terikat pada semua ketentuan yang dijelaskan di halaman ini. Silakan gunakan navigasi di samping untuk menelusuri setiap bagian dengan mudah.</p>
+              <p class="mt-2">Jika Anda tidak menyetujui ketentuan ini, Anda tidak diperkenankan menggunakan layanan kami.</p>
+            </div>
+          </section>
+          <section id="definisi">
+            <h2 class="text-2xl font-semibold text-slate-900">1. Definisi</h2>
+            <ul class="list-disc pl-5 space-y-2 mt-4">
+              <li><strong>Layanan:</strong> Platform Buku Masjid untuk pencatatan keuangan (pemasukan, pengeluaran, donatur), pembuatan laporan, pengelolaan jadwal kajian dan sholat, serta pencatatan donasi untuk Masjid.</li>
+              <li><strong>Kami:</strong> Pemilik dan operator platform Buku Masjid.</li>
+              <li><strong>Pengguna:</strong> Individu atau perwakilan sah dari sebuah Masjid (misalnya, DKM, Bendahara) yang mendaftar dan menggunakan Layanan.</li>
+              <li><strong>Akun:</strong> Akun yang dibuat oleh Pengguna untuk mengakses Layanan.</li>
+              <li><strong>Data:</strong> Semua informasi yang diunggah oleh Pengguna, termasuk data keuangan, data donatur, jadwal, dan lainnya.</li>
+            </ul>
+          </section>
+          <section id="lingkup">
+            <h2 class="text-2xl font-semibold text-slate-900">2. Lingkup Layanan</h2>
+            <p>Buku Masjid adalah platform digital untuk membantu administrasi Masjid dengan fitur utama berikut:</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+              <div class="bg-white p-4 rounded-lg border border-stone-200"><strong>Pencatatan Keuangan:</strong> Mencatat semua transaksi pemasukan dan pengeluaran.</div>
+              <div class="bg-white p-4 rounded-lg border border-stone-200"><strong>Manajemen Donatur:</strong> Mengelola data donatur tetap maupun insidental.</div>
+              <div class="bg-white p-4 rounded-lg border border-stone-200"><strong>Laporan Keuangan:</strong> Menghasilkan laporan periodik untuk transparansi.</div>
+              <div class="bg-white p-4 rounded-lg border border-stone-200"><strong>Jadwal Kegiatan:</strong> Menampilkan jadwal sholat dan kajian.</div>
+              <div class="bg-white p-4 rounded-lg border border-stone-200"><strong>Pencatatan Donasi:</strong> Mencatat penerimaan donasi yang masuk.</div>
+            </div>
+          </section>
+          <section id="pendaftaran">
+            <h2 class="text-2xl font-semibold text-slate-900">3. Pendaftaran dan Keamanan Akun</h2>
+            <p>Anda harus mendaftar untuk menggunakan layanan, serta setuju untuk memberikan informasi yang akurat dan lengkap. Anda juga menjamin bahwa Anda adalah perwakilan sah dari Masjid yang didaftarkan. Anda bertanggung jawab penuh atas kerahasiaan kata sandi dan semua aktivitas di akun Anda.</p>
+          </section>
+          <section id="kewajiban">
+            <h2 class="text-2xl font-semibold text-slate-900">4. Kewajiban dan Tanggung Jawab Pengguna</h2>
+            <p>Anda bertanggung jawab penuh atas keakuratan dan legalitas semua Data yang dimasukkan. Anda setuju untuk tidak menggunakan Layanan untuk tujuan yang melanggar hukum. Pengelolaan dana yang tercatat adalah tanggung jawab Anda sepenuhnya.</p>
+          </section>
+          <section id="donasi">
+            <h2 class="text-2xl font-semibold text-slate-900">5. Fitur Donasi</h2>
+            <div class="mt-4 p-4 border-l-4 border-amber-400 bg-amber-50 rounded-r-lg">
+              <p class="font-semibold text-amber-800">Penting untuk Dipahami:</p>
+              <ul class="list-disc pl-5 space-y-1 mt-2 text-amber-700">
+                <li>Buku Masjid <strong>bukanlah</strong> platform penggalangan dana (fundraising) atau pemroses pembayaran (payment gateway).</li>
+                <li>Kami hanya menyediakan alat bantu untuk <strong>mencatat</strong> dan <strong>mengelola</strong> data donasi yang diterima.</li>
+                <li>Seluruh proses penerimaan, pengelolaan, dan penyaluran dana adalah tanggung jawab penuh pihak Masjid.</li>
+              </ul>
+            </div>
+          </section>
+          <section id="privasi">
+            <h2 class="text-2xl font-semibold text-slate-900">6. Kepemilikan Data dan Privasi</h2>
+            <div class="mt-4 p-4 border-l-4 border-emerald-400 bg-emerald-50 rounded-r-lg">
+              <p class="font-semibold text-emerald-800">Data Anda Adalah Milik Anda</p>
+              <p class="mt-2 text-emerald-700">Semua data yang Anda masukkan ke dalam Layanan adalah milik dan tanggung jawab penuh dari Masjid yang bersangkutan. Kami berkomitmen melindungi privasi Anda dan hanya akan mengakses data untuk menyediakan dan meningkatkan layanan, sesuai dengan <strong>Kebijakan Privasi</strong> kami.</p>
+            </div>
+          </section>
+          <section id="kekayaan-intelektual">
+            <h2 class="text-2xl font-semibold text-slate-900">7. Kekayaan Intelektual</h2>
+            <p>Seluruh konten layanan, termasuk perangkat lunak, desain, logo, dan merek dagang "Buku Masjid", adalah milik eksklusif Kami. Kami memberikan Anda lisensi terbatas, non-eksklusif, dan tidak dapat dialihkan untuk menggunakan Layanan sesuai Ketentuan ini.</p>
+          </section>
+          <section id="batasan">
+            <h2 class="text-2xl font-semibold text-slate-900">8. Batasan Tanggung Jawab</h2>
+            <p>Layanan disediakan "sebagaimana adanya". Kami tidak menjamin layanan akan selalu bebas dari gangguan atau kesalahan. Kami tidak bertanggung jawab atas kerugian langsung maupun tidak langsung yang timbul dari penggunaan atau ketidakmampuan Anda menggunakan Layanan.</p>
+          </section>
+          <section id="penghentian">
+            <h2 class="text-2xl font-semibold text-slate-900">9. Penghentian Layanan</h2>
+            <p>Kami berhak menangguhkan atau menghentikan akses Anda jika Anda melanggar Ketentuan ini. Anda juga dapat berhenti menggunakan layanan dan meminta penghapusan akun kapan saja dengan menghubungi kami.</p>
+          </section>
+          <section id="perubahan">
+            <h2 class="text-2xl font-semibold text-slate-900">10. Perubahan Ketentuan</h2>
+            <p>Kami dapat mengubah Ketentuan ini dari waktu ke waktu. Pemberitahuan akan diberikan melalui email atau notifikasi di platform. Penggunaan Layanan secara berkelanjutan setelah perubahan dianggap sebagai persetujuan Anda terhadap ketentuan baru.</p>
+          </section>
+          <section id="hukum">
+            <h2 class="text-2xl font-semibold text-slate-900">11. Hukum yang Berlaku dan Penyelesaian Sengketa</h2>
+            <p>Ketentuan ini diatur oleh hukum Republik Indonesia. Setiap sengketa akan diupayakan untuk diselesaikan secara musyawarah. Jika gagal, akan diselesaikan melalui pengadilan yang berwenang di Indonesia.</p>
+          </section>
+          <section id="kontak">
+            <h2 class="text-2xl font-semibold text-slate-900">12. Kontak Kami</h2>
+            <p>Jika Anda memiliki pertanyaan mengenai Syarat dan Ketentuan ini, silakan hubungi kami melalui email di: <a href="mailto:dukungan@bukumasjid.com" class="font-medium"><strong>dukungan@bukumasjid.com</strong></a>.</p>
+          </section>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('main section');
+      const navLinks = document.querySelectorAll('#toc-nav .nav-link');
+      const observerOptions = { root: null, rootMargin: '0px', threshold: 0.3 };
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            const activeLink = document.querySelector(`#toc-nav a[href="#${id}"]`);
+            navLinks.forEach(link => link.classList.remove('active-nav'));
+            if (activeLink) activeLink.classList.add('active-nav');
+          }
+        });
+      }, observerOptions);
+      sections.forEach(section => observer.observe(section));
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          const id = this.getAttribute('href');
+          if (id.startsWith('#')) {
+            e.preventDefault();
+            document.querySelector(id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+      setTimeout(() => {
+        const firstNavLink = document.querySelector('#toc-nav a');
+        if (firstNavLink) firstNavLink.classList.add('active-nav');
+      }, 100);
+    });
+  </script>
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}

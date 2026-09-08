@@ -1,0 +1,95 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center position-relative">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3 position-absolute"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown " style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md px-5 pt-5 md:py-5 mt-md-5 position-relative">
+      <div class="row row-cols-1 row-cols-md-2 flex align-items-center">
+        <div class="display-3 heading txt-primary lh-1 col pb-5 pb-md-0" >
+          Gimana <span class="txt-default">Buku<br class="d-none d-md-block"> Masjid</span> bisa<br class="d-none d-md-block"> berkembang?
+        </div>
+        <div class="fs-2 heading-light lh-sm col relative" style="background-image: url('/img/img_wallpattern.svg'); background-position: -150px 0px">
+          <img src="/img/donasi/img_hero_talk.svg" class="md:absolute z-1" style="left: -5%; top: -5%; width: 100%" >
+          <img src="/img/donasi/img_hero.png" class="md:relative z-1 lg:top-[7vw] 2xl:top-[5vw] left-[-90px]" style=" width: 100%">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey-area pt-5 pt-sm-0 2xl:mt-5">
+    <div class="container-md">
+      <div class="row">
+        <div class="col p-5 my-md-5 " >
+          <div class="display-5 txt-primary fw-normal">
+            Donasi dari <br class="d-none d-md-block">para Donatur
+          </div>
+          <div class="fs-5 content-light pt-3 pt-md-5">
+            Buku Masjid kini hadir dengan layanan berlangganan ringan agar program ini bisa terus berjalan dan berkembang. Nilainya kecil, insyaAllah tidak memberatkan. Buku Masjid akan berjalan berkesinambungan, tanpa menutup peluang donasi dari para donatur yang ingin menebar manfaat lebih luas terhadapa masjid-masjid di Indonesia.
+          </div>
+          <a href="https://s.id/kas-donasi-bukumasjid" target="_blank"><button class="btn bg-primary mt-5" type="button">Lihat Laporan Donasi</button></a>
+        </div>
+        <div class="col pt-0 pb-5 pt-sm-5 px-5 my-md-5 me-md-5">
+          <b class="fs-4 txt-primary">Donasi Buku Masjid</b>
+          <div class="card-bm my-3 position-relative">
+            <img src="/img/donasi/logo_bsi.png" class="position-absolute" style="width: 55px; right: 20px; top: 20px">
+            <div class="pb-5">
+              <label>No Rek</label><br>
+              <span class="fs-5 fw-bold">7269112365</span>
+            </div>
+            <div class="pb-3 row">
+              <div class="col">
+                <label>Nama Bank</label><br>
+                <span class="fw-bold">Bank BSI</span>
+              </div>
+              <div class="col">
+                <label>Atas Nama</label><br>
+                <span class="fw-bold">Nafies Luthfi</span>
+              </div>
+              <div class="col-3">
+                <label>Kode Bank</label><br>
+                <span class="fw-bold">451</span>
+              </div>
+            </div>
+            <div class="info text-center">
+              Konfirmasi donasi via Whatsapp :
+              <a href="https://wa.me/6282350355470" target="_blank">https://wa.me/6282350355470</a>
+            </div>
+          </div>
+          <div style="font-size: 12px">
+            <i><b>*Perhatian</b><br>
+            Buku Masjid hanya memiliki 1 rekening sesuai info diatas. Hubungi kami jika menemukan rekening donasi yang mencurigakan.</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md">
+      <div class="row">
+        <div class="col p-5 p-md-5 my-md-5 " >
+          <div class="fs-4 content-light">
+            Donasi yang anda berikan akan sangat membantu untuk pengembangan proyek ini dan menjaga agar layanan tetap berkelanjutan.<br><br>
+            Jazakumullahu khairan katsiran, semoga Allah membalas kalian dengan kebaikan yang banyak.
+          </div>
+        </div>
+        <div class="col px-5 py-0 pb-5 py-sm-5 my-sm-5 me-sm-5">
+          <div class="fs-4 fw-bold pb-4">Pemanfaatan Dana Donasi</div>
+          <div class="py-3 d-flex align-items-center" style="border-bottom: 1px solid #eee">
+            <i class="ti fs-3 pe-3">&#xea5e;</i> Biaya sewa dan pengelolaan server.</div>
+          <div class="py-3 d-flex align-items-center" style="border-bottom: 1px solid #eee"><i class="ti fs-3 pe-3">&#xea5e;</i> Biaya sewa domain bukumasjid.com.</div>
+          <div class="py-3 d-flex align-items-center"><i class="ti fs-3 pe-3">&#xea5e;</i> Research dan Development</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ partial "sponsor.html" . }}
+  {{ partial "footer.html" . }}
+{{ end }}

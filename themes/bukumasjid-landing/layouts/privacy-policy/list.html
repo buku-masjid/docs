@@ -1,0 +1,164 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md px-5 pt-5 mt-lg-5 position-relative">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="display-3 heading txt-primary lh-1 col-lg pb-5" >
+        Kebijakan Privasi
+        <br class="d-none d-md-block"><span class="txt-default">Layanan Buku Masjid</span>
+        </div>
+        <div class="col-lg text=center d-flex align-items-end">
+          <img src="/img/img_wallpattern.svg" class="d-none d-xl-inline position-absolute z-0 top-0 left-0">
+          <img src="/img/contact/img_hero.svg" class="position-relative z-1" style="width: 100%">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey-area">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-4 md:gap-8 lg:gap-12">
+      <aside class="md:col-span-1 mb-8 md:mb-0">
+        <div class="sticky top-8">
+          <nav id="toc-nav" class="flex flex-col space-y-1">
+            <a href="#pendahuluan" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">1. Pendahuluan</a>
+            <a href="#informasi" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">2. Informasi yang Kami Kumpulkan</a>
+            <a href="#penggunaan" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">3. Penggunaan Informasi</a>
+            <a href="#berbagi" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">4. Berbagi Informasi</a>
+            <a href="#keamanan" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">5. Keamanan Data</a>
+            <a href="#hak" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">6. Hak Pengguna</a>
+            <a href="#cookies" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">7. Cookies</a>
+            <a href="#perubahan" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">8. Perubahan Kebijakan</a>
+            <a href="#kontak" class="nav-link px-4 py-2 rounded-md text-slate-700 hover:bg-stone-200 transition-colors duration-200">9. Kontak Kami</a>
+          </nav>
+        </div>
+      </aside>
+      <main class="md:col-span-3">
+        <div class="prose max-w-none prose-slate prose-a:text-emerald-600 space-y-12">
+          <section id="pendahuluan">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-stone-200">
+              <h2 class="text-2xl font-semibold mb-3 text-slate-900 border-b pb-2">Komitmen Privasi Kami</h2>
+              <p>Di Buku Masjid, kami sangat menghargai privasi Anda. Dokumen Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat menggunakan layanan kami, yang mencakup dua platform utama:</p>
+              <ul class="list-disc pl-5 space-y-1 mt-2 mb-2">
+                <li><strong>Website (Financial Book/Report):</strong> Platform berbasis web untuk pengelola masjid melakukan pencatatan keuangan dan pelaporan.</li>
+                <li><strong>Aplikasi Mobile (iOS):</strong> Aplikasi untuk Jamaah sebagai pusat informasi (hub) untuk mendapatkan update dari masjid yang terdaftar.</li>
+              </ul>
+              <p class="mt-2">Dengan menggunakan layanan kami (baik melalui website maupun aplikasi), Anda menyetujui praktik data yang dijelaskan dalam kebijakan ini.</p>
+            </div>
+          </section>
+          <section id="informasi">
+            <h2 class="text-2xl font-semibold text-slate-900">1. Informasi yang Kami Kumpulkan</h2>
+            <p class="mt-2">Kami mengumpulkan informasi berdasarkan jenis pengguna:</p>
+            <h3 class="font-semibold text-lg mt-4 text-emerald-800">A. Untuk Pengelola Masjid (Website)</h3>
+            <ul class="list-disc pl-5 space-y-2 mt-2">
+              <li><strong>Informasi Pendaftaran:</strong> Nama masjid, alamat email, nomor telepon pengurus, dan struktur organisasi masjid.</li>
+              <li><strong>Data Keuangan:</strong> Pencatatan pemasukan, pengeluaran, dan laporan keuangan masjid.</li>
+              <li><strong>Data Donatur:</strong> Data donatur yang dikelola oleh masjid untuk keperluan administrasi internal.</li>
+            </ul>
+            <h3 class="font-semibold text-lg mt-4 text-emerald-800">B. Untuk Jamaah (Aplikasi Mobile)</h3>
+            <ul class="list-disc pl-5 space-y-2 mt-2">
+              <li><strong>Informasi Profil (Opsional):</strong> Nama dan preferensi masjid yang ingin diikuti.</li>
+              <li><strong>Data Lokasi (Opsional):</strong> Untuk membantu menemukan masjid terdekat (hanya jika diizinkan pengguna).</li>
+              <li><strong>Data Interaksi:</strong> Masjid mana yang Anda ikuti untuk mendapatkan informasi jadwal dan kegiatan.</li>
+            </ul>
+            <h3 class="font-semibold text-lg mt-4 text-emerald-800">C. Informasi Teknis (Semua Platform)</h3>
+            <ul class="list-disc pl-5 space-y-2 mt-2">
+              <li><strong>Log Data:</strong> Alamat IP, jenis perangkat, versi OS, dan waktu akses untuk keperluan keamanan dan analisis.</li>
+            </ul>
+          </section>
+          <section id="penggunaan">
+            <h2 class="text-2xl font-semibold text-slate-900">2. Penggunaan Informasi</h2>
+            <p>Kami menggunakan informasi yang dikumpulkan untuk tujuan spesifik:</p>
+            <ul class="list-disc pl-5 space-y-2 mt-4">
+              <li><strong>Administrasi Masjid (Web):</strong> Memproses pencatatan keuangan, menghasilkan laporan otomatis, dan manajemen data donatur.</li>
+              <li><strong>Pusat Informasi (Mobile App):</strong> Menyajikan jadwal sholat, info kegiatan, dan laporan keuangan transparan kepada Jamaah dari Masjid yang mereka ikuti.</li>
+              <li><strong>Manajemen Akun:</strong> Verifikasi pendaftaran masjid dan menjaga keamanan akses pengguna.</li>
+              <li><strong>Pengembangan Layanan:</strong> Menganalisis pola penggunaan untuk meningkatkan fitur di kedua platform.</li>
+              <li><strong>Komunikasi:</strong> Mengirimkan pembaruan sistem atau notifikasi penting kepada pengurus masjid.</li>
+            </ul>
+          </section>
+          <section id="berbagi">
+            <h2 class="text-2xl font-semibold text-slate-900">3. Berbagi Informasi</h2>
+            <div class="mt-4 p-4 border-l-4 border-emerald-400 bg-emerald-50 rounded-r-lg">
+              <p class="font-semibold text-emerald-800">Kami Tidak Menjual Data Anda</p>
+              <p class="mt-2 text-emerald-700">Kami tidak akan menjual, menyewakan, atau memperdagangkan informasi pribadi Anda kepada pihak ketiga untuk tujuan pemasaran.</p>
+            </div>
+            <p class="mt-4">Kami hanya dapat membagikan informasi Anda dalam situasi berikut:</p>
+            <ul class="list-disc pl-5 space-y-2 mt-4">
+              <li><strong>Penyedia Layanan:</strong> Kepada mitra terpercaya yang membantu kami mengoperasikan layanan (seperti penyedia hosting cloud), dengan kewajiban kerahasiaan yang ketat.</li>
+              <li><strong>Kewajiban Hukum:</strong> Jika diwajibkan oleh hukum, peraturan, atau proses hukum yang berlaku.</li>
+            </ul>
+          </section>
+          <section id="keamanan">
+            <h2 class="text-2xl font-semibold text-slate-900">4. Keamanan Data</h2>
+            <p>Kami menerapkan langkah-langkah keamanan teknis dan organisasional yang wajar untuk melindungi data Anda dari akses, penggunaan, atau pengungkapan yang tidak sah. Ini termasuk penggunaan enkripsi untuk data sensitif dan pembatasan akses ke data pribadi hanya kepada karyawan yang membutuhkannya untuk pekerjaan mereka.</p>
+          </section>
+          <section id="hak">
+            <h2 class="text-2xl font-semibold text-slate-900">5. Hak Pengguna</h2>
+            <p>Anda memiliki hak-hak berikut terkait data pribadi Anda:</p>
+            <ul class="list-disc pl-5 space-y-2 mt-4">
+              <li><strong>Akses & Koreksi:</strong> Anda dapat mengakses dan memperbarui informasi akun Anda kapan saja melalui pengaturan profil di aplikasi.</li>
+              <li><strong>Penghapusan:</strong> Anda dapat meminta penghapusan akun dan data terkait dengan menghubungi tim dukungan kami.</li>
+              <li><strong>Ekspor Data:</strong> Anda berhak mendapatkan salinan data yang telah Anda masukkan ke dalam sistem.</li>
+            </ul>
+          </section>
+          <section id="cookies">
+            <h2 class="text-2xl font-semibold text-slate-900">6. Cookies</h2>
+            <p>Kami menggunakan cookies dan teknologi serupa untuk menyimpan preferensi Anda, menjaga sesi login tetap aktif, dan menganalisis trafik situs web. Anda dapat mengatur browser Anda untuk menolak cookies, namun beberapa fitur layanan mungkin tidak berfungsi dengan baik tanpanya.</p>
+          </section>
+          <section id="perubahan">
+            <h2 class="text-2xl font-semibold text-slate-900">7. Perubahan Kebijakan</h2>
+            <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Setiap perubahan signifikan akan diberitahukan kepada Anda melalui email atau pemberitahuan di dalam aplikasi. Kami menyarankan Anda untuk meninjau halaman ini secara berkala.</p>
+          </section>
+          <section id="kontak">
+            <h2 class="text-2xl font-semibold text-slate-900">8. Kontak Kami</h2>
+            <p>Jika Anda memiliki pertanyaan atau kekhawatiran mengenai Kebijakan Privasi ini, jangan ragu untuk menghubungi kami melalui email di: <a href="mailto:dukungan@bukumasjid.com" class="font-medium"><strong>dukungan@bukumasjid.com</strong></a>.</p>
+          </section>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('main section');
+      const navLinks = document.querySelectorAll('#toc-nav .nav-link');
+      const observerOptions = { root: null, rootMargin: '0px', threshold: 0.3 };
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            const activeLink = document.querySelector(`#toc-nav a[href="#${id}"]`);
+            navLinks.forEach(link => link.classList.remove('active-nav'));
+            if (activeLink) activeLink.classList.add('active-nav');
+          }
+        });
+      }, observerOptions);
+      sections.forEach(section => observer.observe(section));
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          const id = this.getAttribute('href');
+          if (id.startsWith('#')) {
+            e.preventDefault();
+            document.querySelector(id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+      setTimeout(() => {
+        const firstNavLink = document.querySelector('#toc-nav a');
+        if (firstNavLink) firstNavLink.classList.add('active-nav');
+      }, 100);
+    });
+  </script>
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}
