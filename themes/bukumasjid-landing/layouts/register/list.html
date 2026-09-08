@@ -1,0 +1,298 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center position-relative">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3 position-absolute"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="mx-auto container-xl">
+      <div class="row justify-content-center">
+        <div class="px-4 pt-md-5">
+          <div class="display-3 heading txt-primary lh-1 py-4 my-md-3">
+            Daftar <br>BukuMasjid
+          </div>
+          <div>
+            <div class="card-body p-2">
+              <form method="POST" action="">
+                <h6 class="mb-4 fw-bold">PILIH LAYANAN</h6>
+                <div class="card p-4 bg-light">
+                  <div class="mb-4">
+                    <div class="row g-3">
+                      <div class="col-md">
+                        <div class="card border-2 pricing-card border-primary disabled">
+                          <div class="card-body text-center p-3">
+                            <h6 class="card-title mb-2">Free Cloud *</h6>
+                            <div class="price mb-2">
+                              <span class="fs-4 fw-bold txt-primary">Rp 0</span>
+                            </div>
+                            <small class="text-danger">Kuota tersisa untuk 0 Masjid</small>
+                            <div class="form-check d-flex justify-content-center mt-2">
+                              <input class="form-check-input" type="radio" name="service_type" id="service1" value="Masjid Cloud Free" disabled>
+                              <label class="form-check-label ms-2" for="service1">Pilih Paket</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md">
+                        <div class="card border-2 pricing-card border-primary">
+                          <div class="card-body text-center p-3">
+                            <h6 class="card-title mb-2">Bulanan</h6>
+                            <div class="price mb-2">
+                              <span class="fs-4 fw-bold txt-primary">Rp 100.000</span>
+                            </div>
+                            <small class="text-muted">Per bulan</small>
+                            <div class="form-check d-flex justify-content-center mt-2">
+                              <input class="form-check-input" type="radio" name="service_type" id="service1" value="Masjid Cloud Pro - Bulanan" required>
+                              <label class="form-check-label ms-2" for="service1">Pilih Paket</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md">
+                        <div class="card border-2 pricing-card border-warning">
+                          <div class="card-body text-center p-3">
+                            <h6 class="card-title mb-2">6 Bulan</h6>
+                            <div class="price mb-2">
+                              <span class="fs-4 fw-bold txt-accent">Rp 500.000</span>
+                            </div>
+                            <small class="text-muted">Hemat Rp 100rb</small>
+                            <div class="form-check d-flex justify-content-center mt-2">
+                              <input class="form-check-input" type="radio" name="service_type" id="service2" value="Masjid Cloud Pro - 6 Bulan" required>
+                              <label class="form-check-label ms-2" for="service2">Pilih Paket</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md">
+                        <div class="card border-2 pricing-card border-info">
+                          <div class="card-body text-center p-3">
+                            <h6 class="card-title mb-2">Tahunan</h6>
+                            <div class="price mb-2">
+                              <span class="fs-4 fw-bold txt-secodary">Rp 1.000.000</span>
+                            </div>
+                            <small class="text-muted">Hemat Rp 200rb</small>
+                            <div class="form-check d-flex justify-content-center mt-2">
+                              <input class="form-check-input" type="radio" name="service_type" id="service3" value="Masjid Cloud Pro - Tahunan" required>
+                              <label class="form-check-label ms-2" for="service3">Pilih Paket</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 pt-3">
+                      <div class="card border-2 pricing-card border-success">
+                        <div class="card-body d-flex justify-content-between align-items-center p-3">
+                          <div class="form-check d-flex justify-content-center align-items-center mt-2">
+                            <input class="form-check-input" type="radio" name="service_type" id="service0" value="Masjid Cloud Pro - Free Trial" required>
+                            <label class="form-check-label ms-4" for="service0">
+                              <h4 class="card-title txt-primary">Free Trial (30 hari)</h4>
+                              Coba gratis sebulan dulu
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container mt-3 mt-md-5 mb-3">
+                      <div class="row pb-3">
+                        <div class="col-12">
+                          <div class="d-flex flex-wrap gap-2 justify-content-center">
+                            <a href="/faq/" target="_blank" class="btn bg-accent text-white text-decoration-none">
+                              <i class="ti me-1">&#xfc47;</i> Lihat FAQ
+                            </a>
+                            <a href="/tnc/" target="_blank" class="btn bg-primary text-white text-decoration-none">
+                              <i class="ti me-1">&#xedec;</i> Lihat Ketentuan Layanan
+                            </a>
+                            <a href="https://wa.me/6282350355470" target="_blank" class="btn btn-success text-decoration-none">
+                              <i class="ti me-1">&#xec74;</i> Tanya via WA
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 border-top"></div>
+                        <div class="px-3 text-muted">
+                          <span class="txt-primary fs-5"><strong>Fitur-Fitur Bukumasjid</strong></span>
+                        </div>
+                        <div class="flex-grow-1 border-top"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 feat-item border-end px-md-5">
+                          <div class="feature-group mb-4">
+                            <h5 class="txt-primary mb-3 py-3">Halaman Publik</h5>
+                            <div class="mb-5">
+                              <h6 class="text-secondary mb-2">Info Masjid</h6>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Halaman Beranda masjid</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Foto masjid</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Kontak Masjid</p>
+                            </div>
+                            <div class="mb-5">
+                              <h6 class="text-secondary mb-2">Info Finansial</h6>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Rangkuman Kas Masjid</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Info Keuangan Masjid</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Info Donasi Masjid</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Info Program Masjid</p>
+                            </div>
+                            <div class="mb-5">
+                              <h6 class="text-secondary mb-2">Info Kegiatan</h6>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Info Kajian</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Info DKM Masjid</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 feat-item px-md-5">
+                          <div class="feature-group mb-4">
+                            <h5 class="txt-primary mb-3 py-3">Dashboard</h5>
+                            <div class="mb-5">
+                              <h6 class="text-secondary mb-2">Transaksi</h6>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Rangkuman Buku Kas</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Input Data Pemasukan</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Input Data Pengeluaran</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Pencarian Data</p>
+                            </div>
+                            <div class="mb-5">
+                              <h6 class="text-secondary mb-2">Laporan</h6>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Laporan Per Bulan</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Laporan Per Kategori</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Rincian Semua Transaksi</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Export Laporan ke PDF</p>
+                            </div>
+                            <div class="mb-3">
+                              <h6 class="text-secondary mb-2">Donatur</h6>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Input Donasi</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Statistik Donasi</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Statistik Donatur</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Statistik Level Donatur</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Rangkuman Donasi</p>
+                              <p class="mb-2 ms-3"><i class="ti">&#xea5e;</i> Cari Data Donatur</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="mb-4 mt-5 fw-bold">PROFILE MASJID</h6>
+                <div class="card p-4 bg-light">
+                  <div class="mb-4">
+                    <label for="masjid_name" class="form-label">Nama Masjid/Pondok/Yayasan</label>
+                    <input type="text" class="form-control" id="masjid_name" name="masjid_name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="alamat" class="form-label">Alamat</label>
+                    <textarea class="form-control" id="alamat" name="alamat" rows="2" required></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="google_maps" class="form-label">Link Google Maps</label>
+                    <input type="url" class="form-control" id="google_maps" name="google_maps" placeholder="Cth: https://maps.app.goo.gl/BfmNPN..." required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="domisili" class="form-label">Domisili</label>
+                    <input type="text" class="form-control" id="domisili" name="domisili" placeholder="Cth: Kota Bandung" required>
+                  </div>
+                </div>
+                <h6 class="mb-4 mt-5 fw-bold">PROFILE DKM</h6>
+                <p class="text-muted small mb-4">Sebagai pengelola Masjid/Pondok/Yayasan yang akan dihubungi oleh Tim Buku Masjid</p>
+                <div class="card p-4 bg-light">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Cth: H. Arifin Sanusi" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="jabatan" class="form-label">Jabatan</label>
+                    <input type="text" class="form-control" id="jabatan" name="jabatan" placeholder="Cth: Bendahara DKM" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="whatsapp" class="form-label">No WhatsApp</label>
+                    <input type="tel" class="form-control" id="whatsapp" name="whatsapp" placeholder="Cth: 0812xxxxxxx" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                  </div>
+                </div>
+                <h6 class="mb-4 mt-5 fw-bold">INFORMASI LAINNYA</h6>
+                <div class="card p-4 bg-light mb-4">
+                  <label class="form-label">Dari mana Anda mendapatkan informasi pertama kali tentang Buku Masjid?</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="info_source" id="source1" value="Pencarian Google" required>
+                    <label class="form-check-label" for="source1">Pencarian Google</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="info_source" id="source2" value="Social Media" required>
+                    <label class="form-check-label" for="source2">Social Media</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="info_source" id="source3" value="Pengurus Masjid Lain" required>
+                    <label class="form-check-label" for="source3">Pengurus Masjid Lain</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="info_source" id="source4" value="Group Whatsapp" required>
+                    <label class="form-check-label" for="source4">Group Whatsapp</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="info_source" id="source5" value="Relasi (Teman/Keluarga/Kolega)" required>
+                    <label class="form-check-label" for="source5">Relasi (Teman/Keluarga/Kolega)</label>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="agreement" name="agreement" required>
+                    <label class="form-check-label" for="agreement">
+                      Ya, Saya Setuju<br>
+                      <span class="text-muted small">Anda bersedia dihubungi oleh Tim BukuMasjid untuk verifikasi dan aktivasi.</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn bg-primary">Daftar Sekarang</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const pricingCards = document.querySelectorAll('.pricing-card');
+      pricingCards.forEach(card => {
+        if (card.classList.contains('disabled')) return;
+        card.addEventListener('click', function(e) {
+          if (e.target.type === 'radio' || e.target.tagName === 'LABEL') return;
+          const radio = this.querySelector('input[type="radio"]');
+          if (radio) {
+            radio.checked = true;
+            radio.dispatchEvent(new Event('change'));
+          }
+        });
+      });
+      const radioButtons = document.querySelectorAll('input[name="service_type"]');
+      radioButtons.forEach(radio => {
+        radio.addEventListener('change', function() {
+          document.querySelectorAll('.pricing-card').forEach(card => {
+            card.classList.remove('selected');
+            card.style.borderColor = '#e9ecef';
+            card.style.transform = 'none';
+            card.style.boxShadow = 'none';
+          });
+          const selectedCard = this.closest('.pricing-card');
+          if (selectedCard) {
+            selectedCard.classList.add('selected');
+            selectedCard.style.borderColor = '#007bff';
+            selectedCard.style.transform = 'translateY(-5px)';
+            selectedCard.style.boxShadow = '0 10px 25px rgba(0,0,0,0.1)';
+          }
+        });
+      });
+    });
+  </script>
+{{ end }}
