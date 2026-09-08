@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center position-relative">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3 position-absolute"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md px-5 pt-5 mt-lg-5">
+      <h1 class="display-4 heading txt-primary">{{ .Title }}</h1>
+      {{ if .Description }}<p class="fs-5 content-light pt-2">{{ .Description }}</p>{{ end }}
+    </div>
+  </section>
+  <section class="grey-area">
+    <div class="container-md py-5">
+      <div class="content fs-5">{{ .Content }}</div>
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}
