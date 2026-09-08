@@ -1,0 +1,150 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md px-5 pt-5 mt-lg-5 position-relative">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="display-3 heading txt-primary lh-1 col-lg pb-5" >
+        Pertanyaan <br class="d-none d-md-block">Seputar
+        <br class="d-none d-md-block"><span class="txt-default">Buku Masjid</span>
+        </div>
+        <div class="col-lg text=center d-flex align-items-end">
+          <img src="/img/img_wallpattern.svg" class="d-none d-xl-inline position-absolute z-0 top-0 left-0">
+          <img src="/img/contact/img_hero.svg" class="position-relative z-1" style="width: 100%">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey-area">
+    <div class="container-md py-5">
+      <div class="accordion" id="accordion-faq">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true">
+              Apa itu Buku Masjid
+            </button>
+          </h2>
+          <div id="collapse-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-faq">
+            <div class="accordion-body">
+            Buku Masjid adalah platform digital berbasis cloud yang dirancang khusus untuk membantu pengurus masjid (DKM) dalam mengelola administrasi dan keuangan masjid secara modern, transparan, dan efisien.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false">
+            Siapa saja yang dapat menggunakan layanan ini?
+            </button>
+          </h2>
+          <div id="collapse-2" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+            <div class="accordion-body">
+            Layanan ini ditujukan untuk para pengurus masjid seperti DKM, bendahara, sekretaris, atau siapa pun yang diamanahkan mengelola administrasi masjid.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false">
+            Apakah layanan Buku Masjid ini berbayar?
+            </button>
+          </h2>
+          <div id="collapse-3" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+            <div class="accordion-body">
+              Buku Masjid menyediakan layanan ini sebagai solusi digitalisasi masjid. Untuk informasi biaya, silakan kunjungi situs web kami atau hubungi tim dukungan.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false">
+            Fitur utama apa saja yang ditawarkan oleh Buku Masjid?
+            </button>
+          </h2>
+          <div id="collapse-4" class="accordion-collapse collapse" data-bs-parent="#accordion-faq" style="">
+            <div class="accordion-body">
+            Buku Masjid menyediakan berbagai fitur utama seperti:
+            <ul>
+              <li>Pencatatan keuangan masjid</li>
+              <li>Pencatatan pengeluaran dan pemasukan</li>
+              <li>Pencatatan pengurus masjid</li>
+              <li>Pencatatan anggota masjid</li>
+              <li>Pencatatan kegiatan masjid</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false">
+            Bagaimana cara kerja fitur Donasi? Apakah pengguna bisa berdonasi langsung melalui platform?
+            </button>
+          </h2>
+          <div id="collapse-5" class="accordion-collapse collapse" data-bs-parent="#accordion-faq" style="">
+            <div class="accordion-body">
+            Fitur Donasi di Buku Masjid memudahkan masjid untuk menerima donasi dari umat. Pengguna dapat mengatur kategori donasi, menentukan target donasi, dan memantau kontribusi donatur. Platform ini juga memastikan transparansi dengan mencatat setiap donasi secara terstruktur.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false">
+            Apakah data keuangan masjid saya aman di platform ini?
+            </button>
+          </h2>
+          <div id="collapse-6" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+            <div class="accordion-body">
+            Ya. Data disimpan di server cloud yang aman, lebih baik dibandingkan pencatatan manual.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false">
+            Siapa yang memiliki data yang saya masukkan ke Buku Masjid?
+            </button>
+          </h2>
+          <div id="collapse-7" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+            <div class="accordion-body">
+            Data Anda hanya dimiliki oleh Anda dan pengurus masjid yang Anda atur. Kami tidak membagikan data Anda kepada pihak ketiga.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="false">
+            Bisakah saya mengakses data dari beberapa perangkat atau lokasi berbeda?
+            </button>
+          </h2>
+          <div id="collapse-8" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+            <div class="accordion-body">
+            Bisa. Dengan sistem cloud, Anda bisa mengakses dari mana saja selama terhubung internet.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-9" aria-expanded="false">
+            Apa yang harus saya lakukan jika saya mengalami kendala atau memiliki pertanyaan lebih lanjut?
+            </button>
+          </h2>
+          <div id="collapse-9" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+            <div class="accordion-body">
+              Silakan hubungi tim dukungan kami melalui berbagai channel yang tersedia di halaman <a href="/kontak/">Kontak Kami</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}
