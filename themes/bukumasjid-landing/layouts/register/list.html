@@ -20,7 +20,7 @@
           </div>
           <div>
             <div class="card-body p-2">
-              <form method="POST" action="">
+              <form id="register-form" method="POST" action="/api/register">
                 <h6 class="mb-4 fw-bold">PILIH LAYANAN</h6>
                 <div class="card p-4 bg-light">
                   <div class="mb-4">
@@ -254,6 +254,7 @@
                   <button type="submit" class="btn bg-primary">Daftar Sekarang</button>
                 </div>
               </form>
+              <div id="register-status" class="mt-3"></div>
             </div>
           </div>
         </div>
@@ -261,6 +262,40 @@
     </div>
   </section>
   {{ partial "footer.html" . }}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('register-form');
+      const status = document.getElementById('register-status');
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        const btn = form.querySelector('button[type="submit"]');
+        btn.disabled = true;
+        btn.textContent = 'Mengirim...';
+        status.innerHTML = '';
+        try {
+          const data = Object.fromEntries(new FormData(form).entries());
+          const resp = await fetch(form.action, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data),
+          });
+          const result = await resp.json().catch(() => ({}));
+          if (resp.ok && result.ok) {
+            status.innerHTML = '<div class="alert alert-success" role="alert">Pendaftaran berhasil dikirim. Silakan konfirmasi ke Contact Center kami.</div>';
+            form.reset();
+          } else {
+            status.innerHTML = '<div class="alert alert-danger" role="alert">' + (result.error || 'Terjadi kesalahan. Coba lagi.') + '</div>';
+          }
+        } catch (err) {
+          status.innerHTML = '<div class="alert alert-danger" role="alert">Gagal terhubung. Periksa koneksi dan coba lagi.</div>';
+        } finally {
+          btn.disabled = false;
+          btn.textContent = 'Daftar Sekarang';
+        }
+      });
+    });
+  </script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const pricingCards = document.querySelectorAll('.pricing-card');
