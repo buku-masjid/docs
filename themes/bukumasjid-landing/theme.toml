@@ -1,0 +1,4 @@
+name = "BukuMasjid Landing"
+description = "Landing page theme for BukuMasjid website replica"
+license = "MIT"
+min_version = "0.80.0"
