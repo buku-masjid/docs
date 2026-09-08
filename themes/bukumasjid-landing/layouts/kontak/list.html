@@ -1,0 +1,67 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center position-relative">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3 position-absolute"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md px-5 position-relative">
+      <div class="row row-cols-1 row-cols-md-2 flex align-items-center">
+        <div class="display-3 heading txt-primary lh-1 col-lg pt-5" >
+          Ta'awun <br class="d-none d-md-block">(Kolaborasi)
+          <br class="d-none d-md-block"><span class="txt-default">adalah</span> koentji!
+        </div>
+        <div class="col-lg text=center d-flex align-items-end">
+          <img src="/img/img_wallpattern.svg" class="d-none d-xl-inline position-absolute z-0 top-0 left-0">
+          <img src="/img/contact/img_hero.png" class="position-relative z-1" style="width: 100%">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey-area">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-md col-md-5 p-5 p-lg-5" >
+          <div class="display-5 fw-normal txt-primary">Dari Umat<br class="d-none d-md-block"> untuk Umat</div>
+          <div class="fs-3 content-light py-4 py-md-5">
+            Buku Masjid memiliki beberapa saluran komunikasi bersama komunitas dan tim Buku Masjid.
+          </div>
+          <div>
+            <div class="fs-5 heading-light pb-4"><i>"Tolong-menolonglah kamu dalam (perkara) kebaikan dan ketakwaan, dan janganlah kamu tolong menolong dalam (perkara) dosa dan permusuhan"</i></div>
+            <b>QS. Al-Maidah ayat 2</b>
+          </div>
+        </div>
+        <div class="col-md col-md-5 p-5 p-lg-5">
+          <div class="pb-4">
+            <b class="fs-4">Grup Telegram:</b><br>
+            <a href="https://t.me/bukumasjid_id" target="_blank"><i class="ti">&#xec26;</i> t.me/bukumasjid_id</a><br>
+            Diskusi dan tanya-jawab bersama komunitas pengguna dan kontributor proyek Buku Masjid.
+          </div>
+          <div class="pb-4">
+            <b class="fs-4">Contact Center:</b><br>
+            <a href="https://wa.me/6282350355470" target="_blank"><i class="ti">&#xec74;</i> +62 823-5035-5470</a><br>
+            Tanya-tanya, butuh bantuan, konfirmasi donasi, lapor gangguan Layanan Buku Masjid Cloud.
+          </div>
+          <div class="pb-4">
+            <b class="fs-4">Kemitraan:</b><br>
+            <a href="https://wa.me/6281380774300" target="_blank"><i class="ti">&#xec74;</i> +62 813-8077-4300</a><br>
+            Tanya-tanya tentang <a href="/mitra/">Mitra Buku Masjid</a>.
+          </div>
+          <div>
+            <b class="fs-4">Kerjasama / Kolaborasi:</b><br>
+            <a href="https://wa.me/6281548004800" target="_blank"><i class="ti">&#xec74;</i> +62 815-4800-4800</a><br>
+            Kerjasama / kolaborasi dengan tim Buku Masjid.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}

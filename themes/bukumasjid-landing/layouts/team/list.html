@@ -1,0 +1,90 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row position-relative align-items-center">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3 position-absolute"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center mx-auto animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md position-relative">
+      <div style="background-image: url('/img/img_wallpattern.svg'); background-repeat: repeat-x; background-position:40px 40px; width: 100%; height: 200px; position: relative; z-index: 0">
+      </div>
+      <img src="/img/team/img_desk.png" class="absolute top-[0px] left-0 md:left-[100px] md:top-[30px] md:z-1 w-full md:w-[400px]"/>
+    </div>
+    <div class="grey-area">
+      <div class="container-md team-hero position-relative">
+        <div class="display-3 heading txt-primary lh-1" >
+          Tim kecil <span class="txt-default">Buku <br class="d-none d-md-block">Masjid</span> dengan visi <br class="d-none d-md-block">yang besar
+        </div>
+        <img src="/img/team/img_hero.png" class="md:w-[30vw] xl:w-[30vw] 2xl:w-[20vw] position-absolute z-1 d-none d-md-inline" style="bottom: -24px; right: 15%;">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md">
+      <div class="py-5 mt-sm-5">
+          <div class="row">
+              <div class="col-md text-center py-sm-5">
+                <img src="/img/team/photo_nafies.png" class="bw-img mx-auto" style="width: 50%"><br>
+                <div class="fs-3 text-center fw-bold pt-4">Nafies Luthfi</div>
+                <div class="fs-6 text-center pb-3">Programmer / Maintainer</div>
+                <div style="font-size: 13px; line-height: 16px; color: #999">
+                  Banjarmasin, Kalsel<br>
+                  Freelance Programmer
+                </div>
+              </div>
+              <div class="col-md text-center py-5">
+                <img src="/img/team/photo_rulli.png" class="bw-img mx-auto" style="width: 50%"><br>
+                <div class="fs-3 text-center fw-bold pt-4">Rulli Indrawan</div>
+                <div class="fs-6 text-center pb-3">Marketing / Product</div>
+                <div style="font-size: 13px; line-height: 16px; color: #999">
+                  Bantul, Yogyakarta<br>
+                  Pondok IT
+                </div>
+              </div>
+              <div class="col-md text-center py-5">
+                <img src="/img/team/photo_erwin.png" class="bw-img mx-auto" style="width: 50%"><br>
+                <div class="fs-3 text-center fw-bold pt-4">Erwin Supriyatna</div>
+                <div class="fs-6 text-center pb-3">UX / FE / Product</div>
+                <div style="font-size: 13px; line-height: 16px; color: #999">
+                  Bogor, Jawa Barat<br>
+                  Infradigital
+                </div>
+              </div>
+              <div class="col-md text-center py-5">
+                <img src="/img/team/photo_erry.png" class="bw-img mx-auto" style="width: 50%"><br>
+                <div class="fs-3 text-center fw-bold pt-4">Erry Novriansyah</div>
+                <div class="fs-6 text-center pb-3">Content / Sosmed</div>
+                <div style="font-size: 13px; line-height: 16px; color: #999">
+                  Bogor, Jawa Barat<br>
+                  Freelance Designer
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="py-4">
+        <div class="d-flex align-items-center position-relative" style="height: 50px">
+            <div style="height: 1px; border-top: 1px solid #eee; width: 100%"></div>
+            <div class="text-center position-absolute fs-4" style="width: 100%;"><span class="px-3" style="background-color: #fff">Github Contributor</span></div>
+        </div>
+        <div class="text-center py-3">
+        <button type="button" class="btn btn-outline-primary mb-2"><i class="ti">&#xec1c;</i> andriawan</button>
+        <button type="button" class="btn btn-outline-primary mb-2"><i class="ti">&#xec1c;</i> thirthfamous</button>
+        <button type="button" class="btn btn-outline-primary mb-2"><i class="ti">&#xec1c;</i> ahmadrosid</button>
+        <button type="button" class="btn btn-outline-primary mb-2"><i class="ti">&#xec1c;</i> pandigresik</button>
+        <button type="button" class="btn btn-outline-primary mb-2"><i class="ti">&#xec1c;</i> budimanfajarf</button>
+        <button type="button" class="btn btn-outline-primary mb-2"><i class="ti">&#xec1c;</i> sukalaper</button>
+        <button type="button" class="btn btn-outline-primary mb-2"><i class="ti">&#xec1c;</i> alitaufiqfajar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ partial "sponsor.html" . }}
+  {{ partial "footer.html" . }}
+{{ end }}
