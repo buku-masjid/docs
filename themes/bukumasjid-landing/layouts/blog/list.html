@@ -1,0 +1,43 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center position-relative">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3 position-absolute"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md px-5 pt-5 mt-lg-5 position-relative">
+      <div class="display-3 heading txt-primary lh-1">
+        <span class="txt-default">Blog</span> Buku Masjid
+      </div>
+      <p class="fs-4 content-light pt-3">Berita, tips, dan update seputar Buku Masjid.</p>
+    </div>
+  </section>
+  <section class="grey-area">
+    <div class="container-md py-5">
+      <div class="row">
+        {{ range .Pages }}
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></h5>
+              {{ if .Description }}<p class="card-text text-muted">{{ .Description }}</p>{{ end }}
+              <small class="text-muted">{{ .Date.Format "2 Jan 2006" }}</small>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="{{ .Permalink }}" class="btn btn-sm btn-outline-primary">Baca</a>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}
