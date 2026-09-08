@@ -1,1 +1,2 @@
-<details>{{ .Inner }}</details>
+{{- $title := .Get 0 | default "" -}}
+<details><summary>{{ $title }}</summary>{{ .Inner }}</details>
