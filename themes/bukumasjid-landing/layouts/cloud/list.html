@@ -1,0 +1,212 @@
+{{ define "main" }}
+  <section>
+    <div class="bm-grad">
+      <div class="d-none d-sm-block header px-4 py-3">
+        <div class="row align-items-center position-relative">
+          <div class="d-none d-lg-block col-lg-2 col-xl-3 position-absolute"><img src="/img/bm_logo_white.svg"></div>
+          <div class="col position-relative text-center animate__animated animate__backInDown" style="top: 30px;">
+            {{ partial "nav-desktop.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-md px-0 px-md-5 pt-5 position-relative">
+      <div class="row g-0 flex align-items-center">
+        <div class="col-md display-3 heading txt-primary lh-1  pb-0 pb-md-0 px-5 px-md-0" >
+          Mau pakai <span class="txt-default">Buku Masjid</span> tapi tidak mau ribet?
+        </div>
+        <div class="col-md fs-2 heading-light lh-sm  position-relative text-center">
+          <img src="/img/img_wallpattern.svg" class="d-none d-md-inline position-absolute z-0 top-0 left-0">
+          <img src="/img/cloud/img_hero.png" class="position-relative z-1 w-100 w-md-auto">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey-area">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-md-5 display-5 p-5 my-md-5 txt-primary text-center text-md-start" style="font-weight: 400">
+          Layanan <br class="d-none d-md-block"><span class="txt-default">Buku Masjid</span><br class="d-none d-md-block"> Cloud
+        </div>
+        <div class="col fs-3 content-light px-4 pb-5 px-md-5 py-md-5 my-md-5 me-md-5">
+          Bertujuan memfasilitasi masjid-masjid yang tidak memiliki tim IT, tetapi membutuhkan platform Buku Masjid untuk pengelolaan financial dan program-program masjid.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container-md">
+      <div class="display-3 heading txt-primary lh-1 text-center p-5 mt-md-5">
+        Pilih Layanan <br class="d-none d-sm-block">Buku Masjid
+      </div>
+      <div class="row px-4 p-md-0 mb-5 pb-5 ">
+        <div class="col-lg-5">
+          <div class="pricing-box mt-md-4">
+            <i class="ti h1">&#xec1c;</i>
+            <h4 class="f-20">Open Source</h4>
+            <div class="mt-4 pt-2">
+                <p class="mb-2 f-18"><b>Fitur</b></p>
+                <p class="mb-2 d-flex align-items-center"><i class="ti">&#xea5e;</i><span>&nbsp;<b>Semua Fitur</b></span><a href="#" data-bs-toggle="modal" data-bs-target="#modalFeature"><span class="badge btn-outline-primary fw-normal ms-2">Lihat Fitur</span></a></p>
+                <p class="mb-2"><i class="ti text-warning">&#xf810;</i> <b>Instalasi</b> Mandiri</p>
+                <p class="mb-2"><i class="ti text-warning">&#xf810;</i> <b>Biaya</b> Mandiri</p>
+                <p class="mb-2"><i class="ti text-warning">&#xf810;</i> <b>Backup Data</b> Mandiri</p>
+                <p class="mb-2"><i class="ti text-warning">&#xf810;</i> <b>Domain + Host</b> Mandiri</p>
+                <p class="mb-2"><i class="ti text-warning">&#xf810;</i> <b>Support</b> Community</p>
+            </div>
+            <p class="mt-4 pt-2 text-muted">Jika Masjid Anda memiliki tenaga IT, Open source (Gratis) dapat menjadi pilihan yang bijak.</p>
+            <div class="pricing-plan mt-4">
+              <p class="text-muted mb-0">
+                <a href="https://github.com/buku-masjid/buku-masjid/blob/master/LICENSE" target="_blank" class="text-decoration-none">
+                  Lisensi MIT
+                </a>
+              </p>
+            </div>
+            <div class="mt-4 pt-3">
+              <a href="https://github.com/buku-masjid/buku-masjid" target="_blank" class="btn bg-secondary me-md-2 text-decoration-none">
+                <i class="ti">&#xec1c;</i> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="pricing-box mt-4">
+            <div class="pricing-badge">
+                <span class="badge bg-success">Populer</span>
+            </div>
+          <i class="ti h1">&#xeaf8;</i>
+            <h4 class="f-20">Pro Plan</h4>
+            <div class="mt-4 pt-2">
+                <p class="mb-2 f-18"><b>Fitur</b></p>
+                <p class="mb-2 d-flex align-items-center"><i class="ti">&#xea5e;</i><span>&nbsp;Semua Fitur <b>Free Cloud</b></span><a href="#" data-bs-toggle="modal" data-bs-target="#modalFeature"><span class="badge btn-outline-primary fw-normal ms-2">Lihat Fitur</span></a></p>
+                <p class="mb-2"><i class="ti text-warning">&#xea5e;</i> <b>Domain</b> Custom * </p>
+                <p class="mb-2"><i class="ti text-warning">&#xea5e;</i> <b>Storage</b> 5 Gb</p>
+                <p class="mb-2"><i class="ti text-warning">&#xea5e;</i> <b>Prioritas Utama</b> Fitur Baru</p>
+                <p class="mb-2"><i class="ti text-warning">&#xea5e;</i> <b>Konsultasi</b> Manajemen Masjid</p>
+                <p class="mb-2"><i class="ti text-warning">&#xea5e;</i> <b>Data Migration</b> (Max 3 bulan terakhir)</p>
+            </div>
+            <p class="mt-4 pt-2 text-muted">
+              Jika Masjid Anda memerlukan storage (penyimpanan file) yang lebih besar dan ingin <b>mendukung</b> riset, pengembangan, dan pemeliharaan proyek Buku Masjid.
+            </p>
+            <div class="pricing-plan mt-3">
+              <div class="row g-2 mb-3">
+                <div class="col-6 col-md-3">
+                  <div class="text-center p-2 border rounded">
+                    <small class="text-muted d-block">Free Trial</small>
+                    <strong class="txt-default">Rp 0 (30 hari)</strong>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="text-center p-2 border rounded">
+                    <small class="text-muted d-block">Bulanan</small>
+                    <strong class="txt-primary">Rp 100.000</strong>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="text-center p-2 border rounded">
+                    <small class="text-muted d-block">6 Bulan</small>
+                    <strong class="txt-accent">Rp 500.000</strong>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="text-center p-2 border rounded">
+                    <small class="text-muted d-block">Tahunan</small>
+                    <strong class="txt-secodary">Rp 1.000.000</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4 pt-1 d-flex align-items-center justify-content-between">
+              <a href="/register/" class="btn bg-primary me-md-2 text-decoration-none">
+                <i class="ti">&#xeaf8;</i> Pilih Pro Plan
+              </a>
+              <span style="font-size: 11px;"><i>* Biaya terpisah</i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey-area">
+    <div class="container-md">
+      <div class="row">
+        <div class="d-block d-md-none col display-5 p-5  txt-primary" style="font-weight: 400">
+        Update <br class="d-none d-md-block">Layanan & Fitur <br class="d-none d-md-block">Buku Masjid
+        </div>
+        <div class="col fs-3 content-light px-5 py-0 pb-5 py-md-5 my-md-5 me-md-5">
+          Buku Masjid <span class="txt-primary"><b>Insya Allah berkomitmen untuk tetap memberikan fitur-fitur terbaru secara gratis</b></span> untuk semua jenis layanan tanpa terkecuali, agar pengurus masjid dan jamaah/masyarakat akan selalu mendapatkan fitur terbaru.<br><br>
+          <a href="https://docs.bukumasjid.com/free-cloud" class="btn btn-outline-primary">Syarat & Ketentuan</a>
+        </div>
+        <div class="d-none d-md-block col-5 display-5 p-5 my-5 txt-primary" style="font-weight: 400">
+          Update <br class="d-none d-md-block">Layanan & Fitur <br class="d-none d-md-block">Buku Masjid
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- MODAL FEATURE -->
+   <div class="modal fade" id="modalFeature" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fitur Buku Masjid</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body feature-list">
+          <div class="d-flex align-items-center">
+            <i class="ti icon">&#xf38f;</i>
+            <h4 class="ps-2 mb-0">Halaman Publik</h4>
+          </div>
+          <div class="row pt-3">
+            <div class="col-sm feat-item">
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Halaman Beranda masjid</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Rangkuman Kas Masjid</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Foto masjid</p>
+            </div>
+            <div class="col-sm feat-item">
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Info Keuangan Masjid</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Info Kajian</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Info DKM Masjid</p>
+            </div>
+            <div class="col-sm feat-item">
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Info Donasi Masjid</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Kontak Masjid</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="ti icon">&#xf02c;</i>
+            <h4 class="ps-2 mb-0">Dashboard</h4>
+          </div>
+          <div class="row pt-3">
+            <div class="col-sm feat-item">
+              <h4>Transaksi</h4>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Rangkuman Buku Kas</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Input Data Pemasukan</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Input Data Pengeluaran</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Pencarian Data</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Input Data Pengeluaran</p>
+            </div>
+            <div class="col-sm feat-item">
+              <h4>Laporan</h4>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Laporan Per Bulan</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Laporan Per Kategori</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Rincian Semua Transaksi</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Export Laporan ke PDF</p>
+            </div>
+            <div class="col-sm feat-item">
+              <h4>Donatur</h4>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Input Donasi</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Statistik Donasi</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Statistik Donatur</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Statistik Donasi</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Statistik Level Donatur</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Rangkuman Donasi</p>
+              <p class="mb-2"><i class="ti">&#xea5e;</i> Cari Data Donatur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+{{ end }}
