@@ -24,7 +24,7 @@
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h5 class="card-title"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></h5>
+              <h5 class="card-title"><a href="{{ .RelPermalink }}" class="text-decoration-none">{{ .Title }}</a></h5>
               {{ if .Description }}<p class="card-text text-muted">{{ .Description }}</p>{{ end }}
             </div>
           </div>

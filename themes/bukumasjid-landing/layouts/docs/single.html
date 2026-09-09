@@ -19,7 +19,7 @@
             <div class="card-body">
               <ul class="list-unstyled mb-0">
                 {{ range .CurrentSection.Pages }}
-                <li class="py-1"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></li>
+                <li class="py-1"><a href="{{ .RelPermalink }}" class="text-decoration-none">{{ .Title }}</a></li>
                 {{ end }}
               </ul>
             </div>
