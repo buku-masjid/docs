@@ -1,3 +1,13 @@
-{{- $url := .Get 0 | default "" -}}
-{{- $label := .Get 1 | default $url -}}
-<a href="{{ $url }}">{{ $label }}</a>
+{{- /* Shortcode relref — return URL murni (bukan tag <a>).
+  Dipakai di dalam markdown link: [teks]({{< relref "blog/xxx.md" >}})
+  Fungsi template `relref` meresolve path relatif ke content ke URL.
+  Menangani variasi argumen: dengan/dpn .md, "/", "contact", dan kosong.
+*/ -}}
+{{- $path := trim (.Get 0 | default "") "\"" " " }}
+{{- if not $path }}{{ $path = .Get "path" | default "" }}{{ end -}}
+{{- $clean := strings.TrimPrefix $path "/" -}}
+{{- if $clean -}}
+  {{- relref .Page $clean -}}
+{{- else -}}
+  {{- "/" -}}
+{{- end -}}
