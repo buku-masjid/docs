@@ -1,13 +1,11 @@
 {{- /* Shortcode relref — return URL murni (bukan tag <a>).
   Dipakai di dalam markdown link: [teks]({{< relref "blog/xxx.md" >}})
-  Fungsi template `relref` meresolve path relatif ke content ke URL.
+  .Get 0 sudah otomatis menghapus quote dari argumen.
+  Handle path kosong atau "/" → return "/".
 */ -}}
 {{- $path := .Get 0 | default "" -}}
-{{- $path = strings.TrimSpace $path -}}
-{{- $path = strings.Trim $path "\"" -}}
-{{- $clean := strings.TrimPrefix $path "/" -}}
-{{- if $clean -}}
-  {{- relref .Page $clean -}}
-{{- else -}}
+{{- if or (eq $path "") (eq $path "/") -}}
   {{- "/" -}}
+{{- else -}}
+  {{- relref .Page $path -}}
 {{- end -}}
